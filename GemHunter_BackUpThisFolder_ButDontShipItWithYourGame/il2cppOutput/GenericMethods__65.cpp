@@ -1,0 +1,9496 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*,const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj,invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct InterfaceActionInvoker2Invoker;
+template <typename T1, typename T2>
+struct InterfaceActionInvoker2Invoker<T1*, T2*>
+{
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1* p1, T2* p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		void* params[2] = { p1, p2 };
+		invokeData.method->invoker_method(il2cpp_codegen_get_method_pointer(invokeData.method), invokeData.method, obj, params, params[1]);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*,T1,const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj,p1,invokeData.method);
+	}
+};
+
+struct Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907;
+struct Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1;
+struct Dictionary_2_t29FB78C9E5DF443E2A5880E4E9B7C86E516670E0;
+struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
+struct IContravariantJsonAdapter_1_t912E848749A68A5AC4B5B3A1E01E6D93EB8ADA57;
+struct IContravariantJsonAdapter_1_t1FE7FB545653B5504DA1C12ABD83909B2C566944;
+struct IContravariantJsonAdapter_1_t520E847138DDE8BC375F1E6FDE72FA65F8C456AF;
+struct IContravariantJsonAdapter_1_tA1571ADA365FE4A77DA1390D2778C7930A7BCA58;
+struct IContravariantJsonAdapter_1_t9682507C4B8AB00E816D43AA64C259CD154570F9;
+struct IContravariantJsonAdapter_1_tA2A8BB1113132054862226DE48F7B8DEDEA3C3E4;
+struct IContravariantJsonAdapter_1_tAC4C304F5392B903978CDC9D4BFFE579BD0778F8;
+struct IContravariantJsonAdapter_1_tEBDD0445603A3F85F5E154477C82C83EFD0EAC16;
+struct IContravariantJsonAdapter_1_tD8E4587C0BA7DBD7C7C12484FC12F323DBA9D2B3;
+struct IContravariantJsonAdapter_1_t1F8E74262E7D34B92BDB112631198A5DFD6F6A50;
+struct IContravariantJsonAdapter_1_tB435E08C3515C59EFCC1FC5E71C34D55E4A681CA;
+struct IContravariantJsonAdapter_1_t91EBBB4CE892E7238DC85B683A3259047C203D00;
+struct IContravariantJsonAdapter_1_t02D8E8152A1FE465B7EF43F936B734F98E1A2317;
+struct IContravariantJsonAdapter_1_t5958F938F85B6CE20128EAC8DA1171F9B39E5B83;
+struct IContravariantJsonAdapter_1_tDC514C82ABD3ACEA9FA27C873CFC212D8BD460DB;
+struct IContravariantJsonAdapter_1_tD4DE54DC5B4B33D848C29D4E4D3762E3A8748176;
+struct IContravariantJsonAdapter_1_t20223E30B7C87057DC7E0BFBF48540AB94F811A3;
+struct IContravariantJsonAdapter_1_t7B3B995A2BF19C286C0E62F1AC565EB6CD471A01;
+struct IContravariantJsonAdapter_1_t5E97856BBEEDF935A881B25751A8F43422209273;
+struct IContravariantJsonAdapter_1_tC868BE5859F2A166C678A614FDE8322F25481B72;
+struct IContravariantJsonAdapter_1_t64A6ABC8718E33317F2771CF362A79250DB33E89;
+struct IContravariantJsonAdapter_1_tD67189DBFA398302444C6EDB99C6CE4476B179EF;
+struct IContravariantJsonAdapter_1_t12A182455BF645B89A4DA1D4B28FB4F90A4AA615;
+struct IContravariantJsonAdapter_1_t08F6754BFB79E296344E092AC814FA83600FDFEB;
+struct IContravariantJsonAdapter_1_t2E928C435F89C524BED9C664E4526F9A7EED937F;
+struct IContravariantJsonAdapter_1_t1A78EDA938C1BF3AC63077034D0BA77B2BC351E8;
+struct IContravariantJsonAdapter_1_t5F7B7E6CB9D548D940E337D13CBB4EF3C3FA269B;
+struct IContravariantJsonAdapter_1_t9EDF15FE652D0221E154006BC3FCCC85F1A42250;
+struct IContravariantJsonAdapter_1_t9EDBBE2372AAE0D546B95420355D052175B56921;
+struct IContravariantJsonAdapter_1_t1EA7A5CBFDC32D9F76CE9F7F57245E4ED6723696;
+struct IContravariantJsonAdapter_1_t0670D068260AE71990035E434DB50AAC7E23F8C3;
+struct IContravariantJsonAdapter_1_tC26352FED513D48445BDF17547AD1ECB132DCE50;
+struct IContravariantJsonAdapter_1_t118727F3018FD6E502D9128922BDE8223A7ADB1F;
+struct IContravariantJsonAdapter_1_tCCEE22D71CCC3ACA7CBABD76A7A360A985708742;
+struct IContravariantJsonAdapter_1_t953A8A22257A867554C7198BA87E0E0D1AEEF0BF;
+struct IContravariantJsonAdapter_1_tCDA9232A2589DEE569A3AE018813C82007D8EFC2;
+struct IContravariantJsonAdapter_1_tDC2DD94D850A96432125433F9B1EDE4228160AD3;
+struct IContravariantJsonAdapter_1_t7751875B93AACBE2B72A181D22CBF821E3794A4B;
+struct IContravariantJsonAdapter_1_t6E64939ADE09D10170678AA67A5B83FFEF0C3B66;
+struct IContravariantJsonAdapter_1_tB230C5C9A1F125F10299560B8E9B71653A300C8E;
+struct IContravariantJsonAdapter_1_t6799AE7915A14F24A14F2805FDAB24B509423A66;
+struct IJsonAdapter_1_tCD2A2101DECB36038BA1B0941A57B6A858D33A5F;
+struct IJsonAdapter_1_t2F0EDCE759B4E8E7D2A04D73DBF836489C519450;
+struct IJsonAdapter_1_t67E3D744A388B824FF595C7D33820907AD3CEC90;
+struct IJsonAdapter_1_tA5B314992F18C83E2F8C63360AF5691AB26C34A8;
+struct IJsonAdapter_1_t90E4B62C6AAE0CC5ABEDC6C99A61A54C06F65D2A;
+struct IJsonAdapter_1_tC133AC4FB361F60E9922D39AD20379D6AB7353B7;
+struct IJsonAdapter_1_t14A006D8FBD799882195096222AFE10BC1B829FD;
+struct IJsonAdapter_1_t4E1A15440CDEA6531EAFA1625DE07FC60D7C0FF2;
+struct IJsonAdapter_1_tB22D9602C983105144D5D831B5ED5DAA1CD155E5;
+struct IJsonAdapter_1_t05C593177B413242DC88C1D315FC6D0948B8F099;
+struct IJsonAdapter_1_tF944B773B586BE536FFFAF5154BE2E15A5EFF93C;
+struct IJsonAdapter_1_t6FEF5639B941A9F0C975D5AE533F6DA220525816;
+struct IJsonAdapter_1_t62319E358BF0BC1255F430BBF2DCEED66CF1AF96;
+struct IJsonAdapter_1_t31043C710A84BFB33DEA4439C18D55C342C5A1EF;
+struct IJsonAdapter_1_t18DB083AA76AADA1AC62261D33AD8C7D6443D05C;
+struct IJsonAdapter_1_t0311A7F3B0BF0F5E5040066801B60F2D374DCB02;
+struct IJsonAdapter_1_t21D0798004B0373D87A402CA878A99D15904DD98;
+struct IJsonAdapter_1_tC4A9ADC87FC69537337437AC03D75CD59CD40D0D;
+struct IJsonAdapter_1_t824F2F6896F1B111D46CD4E8C76FD3A477B86397;
+struct IJsonAdapter_1_t7E57EF48DC0912C153FE5592E2B1BFF63401A5E4;
+struct IJsonAdapter_1_t41275FAB771D2ECC084FC1137682AE60A0B798A3;
+struct IJsonAdapter_1_t21CC052F0D4663D9B6E480F675BF2573AA21733F;
+struct IJsonAdapter_1_t6399B60E0A84D53922B571FB9FFC710BDBF3B836;
+struct IJsonAdapter_1_tEB4B451B9A92EB25E427AA3108CD193482E59CE8;
+struct IJsonAdapter_1_tA19276DF3B59B218DF91AA38920BDBE69429D99B;
+struct IJsonAdapter_1_tDFAF0F8ED3094EC521C24FA4B8BF084AE68B84D2;
+struct IJsonAdapter_1_t83C11A40455C172C0EC079EE15BB53A80CCECF10;
+struct IJsonAdapter_1_tE7C5DAB767E104A34B62704D74285F92585C87F9;
+struct IJsonAdapter_1_t38FECD70580671F4759480CAE3093EBC4DB31774;
+struct IJsonAdapter_1_tB57A8BF73161773B39C79761ADFA89D4B2F2A1EF;
+struct IJsonAdapter_1_t6CA2D72DB8DD4C1AC19D98730994B78D243F6B49;
+struct IJsonAdapter_1_t9062AF67404C41107B30729886472D6F38CB4C35;
+struct IJsonAdapter_1_t6FC743351ED56BE059EA5C50B5169EF326821B0A;
+struct IJsonAdapter_1_tA036C324499E4676086E49032925F79A7F0DD8D4;
+struct IJsonAdapter_1_t110AEC61B382389B1F409EA22CAF3C367F2ABB51;
+struct IJsonAdapter_1_t67AE5C57AA693CCE03E91DC54E9487ADE19A78A6;
+struct IJsonAdapter_1_t8A1BCB3DE5B76C874284FEC67500D203C6BEE08F;
+struct IJsonAdapter_1_tD36F8A636A84E7C0CF13720F63514138A14B0446;
+struct IJsonAdapter_1_t60D54BEE9967106E69F9D274DC85A5C257BCDD1F;
+struct IJsonAdapter_1_t182CAED707BFE6B31BAFC6A72821F334B8E38E20;
+struct IJsonAdapter_1_t4EA84FCDC744D568E9F4983BB2C05899E6C82066;
+struct List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB;
+struct List_1_t534D2333B268A3580A409E37E69D1D54668A35DB;
+struct List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8;
+struct List_1_t491347B1404617671B39DA9325642B0DB8748CB3;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct Exception_t;
+struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6;
+struct FontAsset_t61A6446D934E582651044E33D250EA8D306AB958;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IJsonAdapter_tA42C75A8B49564EFD25FD636C710F44826035E10;
+struct IProperty_t9DAAF3D1ACD042DA2D622152506F58CE625EF697;
+struct IPropertyBagVisitor_tE8B9B7E14DBF946E6E65BD0ECC8679268715BF5A;
+struct ISerializedTypeProvider_t6DD7C7323A4C3619603ABA63820D57169D52A8C4;
+struct InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA;
+struct JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8;
+struct JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Type_t;
+struct UIAnimationClip_tFB53C6186F959E95BDF9FC388D9F67925289363A;
+struct UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4;
+struct VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD;
+
+IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* VisitReturnCode_t795FEB928E847C526F470080AA94B33FAC60BC75_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8;
+IL2CPP_EXTERN_C String_t* _stringLiteral50E436334550B3ABD14EAC4D71A5B94109EF1CE0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC5B2022F50F868894692162C4E9D94C36C41AA2A;
+IL2CPP_EXTERN_C String_t* _stringLiteralCFF76EAE2EC7F0E16EB3A061249835B984112489;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PropertyContainer_TryAccept_TisRuntimeObject_mB6FB92B27875A6970EB6B2F948AE57066573F29D_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB  : public RuntimeObject
+{
+	DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct TypeTraits_1_tA6731D901CB174519A942E6C76C2280B82CF255A  : public RuntimeObject
+{
+};
+struct JsonPropertyVisitor_t27B9275C12D510546E4B38827377643BB3B1856E  : public RuntimeObject
+{
+	bool ___U3CIsLockedU3Ek__BackingField;
+	RuntimeObject* ___U3CPropertyU3Ek__BackingField;
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750  : public RuntimeObject
+{
+	Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* ___m_DeserializationIndex;
+	Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* ___m_SerializationIndex;
+	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___m_References;
+	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___m_Serialized;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826 
+{
+	Il2CppSharedGenericObject* ___key;
+	Il2CppSharedGenericObject* ___value;
+};
+struct Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_Texture;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_RenderTexture;
+	VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC* ___m_VectorImage;
+};
+struct Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_marshaled_pinvoke
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_Texture;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_RenderTexture;
+	VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC* ___m_VectorImage;
+};
+struct Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_marshaled_com
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_Texture;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_RenderTexture;
+	VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC* ___m_VectorImage;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			uint64_t ___m_rawData;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[8];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C 
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___m_Font;
+	FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* ___m_FontAsset;
+};
+struct FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_marshaled_pinvoke
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___m_Font;
+	FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* ___m_FontAsset;
+};
+struct FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_marshaled_com
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___m_Font;
+	FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* ___m_FontAsset;
+};
+struct Handle_tB95417622C3A6F71FD5157D3B61F37A84BF2A03F 
+{
+	int32_t ___Index;
+	int32_t ___Version;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct JsonAdapterCollection_t3F341DE8D22201859E95D99E77B995BD2B97B1CE 
+{
+	JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8* ___InternalAdapter;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___Global;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___UserDefined;
+};
+struct JsonAdapterCollection_t3F341DE8D22201859E95D99E77B995BD2B97B1CE_marshaled_pinvoke
+{
+	JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8* ___InternalAdapter;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___Global;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___UserDefined;
+};
+struct JsonAdapterCollection_t3F341DE8D22201859E95D99E77B995BD2B97B1CE_marshaled_com
+{
+	JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8* ___InternalAdapter;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___Global;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___UserDefined;
+};
+struct JsonMigrationCollection_tC3E7474943217BF0A93EF290E6E172CA4B074548 
+{
+	List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8* ___Global;
+	List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8* ___UserDefined;
+	RuntimeObject* ___UserData;
+};
+struct JsonMigrationCollection_tC3E7474943217BF0A93EF290E6E172CA4B074548_marshaled_pinvoke
+{
+	List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8* ___Global;
+	List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8* ___UserDefined;
+	Il2CppIUnknown* ___UserData;
+};
+struct JsonMigrationCollection_tC3E7474943217BF0A93EF290E6E172CA4B074548_marshaled_com
+{
+	List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8* ___Global;
+	List_1_t69A0640F36B14B8E895AD59C7F718F1693FA9DE8* ___UserDefined;
+	Il2CppIUnknown* ___UserData;
+};
+struct MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD 
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	List_1_t491347B1404617671B39DA9325642B0DB8748CB3* ___propertyValues;
+};
+struct MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_marshaled_pinvoke
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	List_1_t491347B1404617671B39DA9325642B0DB8748CB3* ___propertyValues;
+};
+struct MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_marshaled_com
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	List_1_t491347B1404617671B39DA9325642B0DB8748CB3* ___propertyValues;
+};
+struct Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3 
+{
+	float ___m_Value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	int64_t ____ticks;
+};
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	uint16_t ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF 
+{
+	uint64_t ___m_value;
+};
+struct UnsafeObjectView_tD5008393002152AFDA51B8951B8224C8A8336541 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	int32_t ___m_TokenIndex;
+};
+struct UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	int32_t ___m_TokenIndex;
+};
+struct UnsafeStringView_t74CDF255D567E727699F915667D4B9D456CBDF59 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	int32_t ___m_TokenIndex;
+};
+struct UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	int32_t ___m_TokenIndex;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 
+{
+	int32_t ___m_X;
+	int32_t ___m_Y;
+	int32_t ___m_Z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 
+{
+	bool ___HasSerializedId;
+	bool ___HasSerializedTypeInfo;
+	bool ___HasSerializedVersion;
+	bool ___HasElements;
+	bool ___IsSerializedReference;
+	int32_t ___SerializedId;
+};
+struct SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8_marshaled_pinvoke
+{
+	int32_t ___HasSerializedId;
+	int32_t ___HasSerializedTypeInfo;
+	int32_t ___HasSerializedVersion;
+	int32_t ___HasElements;
+	int32_t ___IsSerializedReference;
+	int32_t ___SerializedId;
+};
+struct SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8_marshaled_com
+{
+	int32_t ___HasSerializedId;
+	int32_t ___HasSerializedTypeInfo;
+	int32_t ___HasSerializedVersion;
+	int32_t ___HasElements;
+	int32_t ___IsSerializedReference;
+	int32_t ___SerializedId;
+};
+struct BackgroundPositionKeyword_tE680A05B983D256AADC8E2CF1CA169D004B8641B 
+{
+	int32_t ___value__;
+};
+struct BackgroundSizeType_tD194B20FF5086D494ABF8D799124D2FC4FFCC674 
+{
+	int32_t ___value__;
+};
+struct Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82 
+{
+	union
+	{
+		struct
+		{
+			EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_Texture;
+			int32_t ___m_DefaultCursorId;
+			int32_t _____dummy;
+			Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Hotspot;
+		};
+		uint8_t Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82__padding[24];
+	};
+};
+struct EventType_t3FFE62D1C4B6CB4133305113E7D5F82EC9E35E08 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E  : public JsonPropertyVisitor_t27B9275C12D510546E4B38827377643BB3B1856E
+{
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	Type_t* ___m_SerializedType;
+	bool ___m_DisableRootAdapters;
+	bool ___m_DisableRootMigration;
+	JsonAdapterCollection_t3F341DE8D22201859E95D99E77B995BD2B97B1CE ___m_Adapters;
+	JsonMigrationCollection_tC3E7474943217BF0A93EF290E6E172CA4B074548 ___m_Migrations;
+	SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* ___m_SerializedReferences;
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 ___m_Metadata;
+	SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* ___m_SerializedTypeProvider;
+	bool ___m_HasPrimitiveOrStringGlobalAdapters;
+	bool ___m_HasPrimitiveOrStringUserDefinedAdapters;
+};
+struct LayoutUnit_tF18EC17FE8588A01C72784546410EA0D9B1D2F22 
+{
+	int32_t ___value__;
+};
+struct Repeat_tC0330B75B12D24B063BA5151AF3BB73B85D8B840 
+{
+	int32_t ___value__;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Scale;
+	bool ___m_IsNone;
+};
+struct Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_marshaled_pinvoke
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Scale;
+	int32_t ___m_IsNone;
+};
+struct Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_marshaled_com
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Scale;
+	int32_t ___m_IsNone;
+};
+struct SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	Handle_tB95417622C3A6F71FD5157D3B61F37A84BF2A03F ___m_Handle;
+};
+struct SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	Handle_tB95417622C3A6F71FD5157D3B61F37A84BF2A03F ___m_Handle;
+};
+struct SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F 
+{
+	UnsafePackedBinaryStream_tB7D7A26EE7BC2AA076A294EE8854D575EB210AE4* ___m_Stream;
+	Handle_tB95417622C3A6F71FD5157D3B61F37A84BF2A03F ___m_Handle;
+};
+struct StyleKeyword_t2812E72266C15CBA8927586972DC2FD27B10E705 
+{
+	int32_t ___value__;
+};
+struct StylePropertyId_tA3B8A5213F5BA43F9C5443B27B165D744713BE69 
+{
+	int32_t ___value__;
+};
+struct TextAutoSizeMode_t10C0C54209C97D8A231AF021AE2F9DFFD26EE2C9 
+{
+	int32_t ___value__;
+};
+struct TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___offset;
+	float ___blurRadius;
+};
+struct TimeUnit_t56A79CDB672E98A4EE28002BD23B6D5E0BAA2649 
+{
+	int32_t ___value__;
+};
+struct TokenType_tC73238BE9B9245FCE073CA34272C2F4599CC450C 
+{
+	int32_t ___value__;
+};
+struct VisitExceptionKind_t7E6C3EABD5439F2B4CA31C246B2AA4AC16A77DF5 
+{
+	int32_t ___value__;
+};
+struct VisitReturnCode_t795FEB928E847C526F470080AA94B33FAC60BC75 
+{
+	int32_t ___value__;
+};
+struct Unit_t21DCD5C095F7DC1A0B9A47CAF8CAD3E7776CD3DB 
+{
+	int32_t ___value__;
+};
+struct SerializedContainerMetadataScope_t5183BCE0CB15F36149D25291C9D8A63A16D41CF6 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 ___m_Metadata;
+};
+struct SerializedContainerMetadataScope_t5183BCE0CB15F36149D25291C9D8A63A16D41CF6_marshaled_pinvoke
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8_marshaled_pinvoke ___m_Metadata;
+};
+struct SerializedContainerMetadataScope_t5183BCE0CB15F36149D25291C9D8A63A16D41CF6_marshaled_com
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8_marshaled_com ___m_Metadata;
+};
+struct SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD  : public RuntimeObject
+{
+	List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* ___Events;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___View;
+	Type_t* ___SerializedType;
+};
+struct UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+};
+struct UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3_marshaled_pinvoke
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+};
+struct UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3_marshaled_com
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+};
+struct State_t64E9748A115436CD459C4BFCE36DA332E88C498D 
+{
+	int32_t ___value__;
+};
+struct Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC 
+{
+	float ___m_Value;
+	int32_t ___m_Unit;
+};
+struct BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F 
+{
+	int32_t ___x;
+	int32_t ___y;
+};
+struct DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 
+{
+	int32_t ___Type;
+	RuntimeObject* ___Payload;
+};
+struct DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9_marshaled_pinvoke
+{
+	int32_t ___Type;
+	Il2CppIUnknown* ___Payload;
+};
+struct DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9_marshaled_com
+{
+	int32_t ___Type;
+	Il2CppIUnknown* ___Payload;
+};
+struct InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA  : public Exception_t
+{
+	Type_t* ___U3CTypeU3Ek__BackingField;
+};
+struct Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 
+{
+	float ___m_Value;
+	int32_t ___m_Unit;
+};
+struct MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF  : public Exception_t
+{
+	Type_t* ___U3CTypeU3Ek__BackingField;
+};
+struct StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B 
+{
+	Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B_marshaled_pinvoke
+{
+	Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_marshaled_pinvoke ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B_marshaled_com
+{
+	Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_marshaled_com ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 
+{
+	Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 
+{
+	float ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C 
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C_marshaled_pinvoke
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C_marshaled_com
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 
+{
+	int32_t ___m_Keyword;
+	FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___m_Value;
+};
+struct StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4_marshaled_pinvoke
+{
+	int32_t ___m_Keyword;
+	FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_marshaled_pinvoke ___m_Value;
+};
+struct StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4_marshaled_com
+{
+	int32_t ___m_Keyword;
+	FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_marshaled_com ___m_Value;
+};
+struct StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D 
+{
+	int32_t ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 
+{
+	MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471_marshaled_pinvoke
+{
+	MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_marshaled_pinvoke ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471_marshaled_com
+{
+	MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_marshaled_com ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF 
+{
+	int32_t ___U3CidU3Ek__BackingField;
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+struct StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_marshaled_pinvoke
+{
+	int32_t ___U3CidU3Ek__BackingField;
+	char* ___U3CnameU3Ek__BackingField;
+};
+struct StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_marshaled_com
+{
+	int32_t ___U3CidU3Ek__BackingField;
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+struct StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 
+{
+	Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC 
+{
+	Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC_marshaled_pinvoke
+{
+	Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_marshaled_pinvoke ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC_marshaled_com
+{
+	Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_marshaled_com ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 
+{
+	int32_t ___m_Keyword;
+	TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___m_Value;
+};
+struct StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 
+{
+	UIAnimationClip_tFB53C6186F959E95BDF9FC388D9F67925289363A* ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5_marshaled_pinvoke
+{
+	UIAnimationClip_tFB53C6186F959E95BDF9FC388D9F67925289363A* ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5_marshaled_com
+{
+	UIAnimationClip_tFB53C6186F959E95BDF9FC388D9F67925289363A* ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E 
+{
+	float ___m_Value;
+	int32_t ___m_Unit;
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE 
+{
+	int32_t ___U3CIgnoreExceptionsU3Ek__BackingField;
+};
+struct Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 
+{
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___m_UserDefinedAdapters;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___m_GlobalAdapters;
+	JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8* ___m_InternalAdapter;
+	RuntimeObject* ___m_Current;
+	int32_t ___m_State;
+	int32_t ___m_Index;
+};
+struct Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8_marshaled_pinvoke
+{
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___m_UserDefinedAdapters;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___m_GlobalAdapters;
+	JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8* ___m_InternalAdapter;
+	RuntimeObject* ___m_Current;
+	int32_t ___m_State;
+	int32_t ___m_Index;
+};
+struct Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8_marshaled_com
+{
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___m_UserDefinedAdapters;
+	List_1_t534D2333B268A3580A409E37E69D1D54668A35DB* ___m_GlobalAdapters;
+	JsonAdapter_t4387298CACEC425123A5D8C620C8888E8D4BD6C8* ___m_InternalAdapter;
+	RuntimeObject* ___m_Current;
+	int32_t ___m_State;
+	int32_t ___m_Index;
+};
+struct JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	float ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	uint16_t ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	uint32_t ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	uint64_t ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	Il2CppSharedGenericObject* ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+typedef Il2CppFullySharedGenericStruct JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF;
+struct JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	int32_t ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56 
+{
+	int32_t ___keyword;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___offset;
+};
+struct BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7 
+{
+	int32_t ___m_SizeType;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_X;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Y;
+};
+struct Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 
+{
+	Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC ___m_Angle;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Axis;
+	bool ___m_IsNone;
+};
+struct Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7_marshaled_pinvoke
+{
+	Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC ___m_Angle;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Axis;
+	int32_t ___m_IsNone;
+};
+struct Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7_marshaled_com
+{
+	Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC ___m_Angle;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Axis;
+	int32_t ___m_IsNone;
+};
+struct StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 
+{
+	BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 
+{
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A 
+{
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_MinSize;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_MaxSize;
+	int32_t ___m_Mode;
+};
+struct TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 
+{
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_X;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Y;
+	float ___m_Z;
+};
+struct Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E 
+{
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_X;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Y;
+	float ___m_Z;
+	bool ___m_isNone;
+};
+struct Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_pinvoke
+{
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_X;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Y;
+	float ___m_Z;
+	int32_t ___m_isNone;
+};
+struct Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_com
+{
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_X;
+	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Y;
+	float ___m_Z;
+	int32_t ___m_isNone;
+};
+struct JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+struct StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 
+{
+	BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 
+{
+	BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B 
+{
+	Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B_marshaled_pinvoke
+{
+	Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7_marshaled_pinvoke ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B_marshaled_com
+{
+	Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7_marshaled_com ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A 
+{
+	int32_t ___m_Keyword;
+	TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A ___m_Value;
+};
+struct StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 
+{
+	TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 
+{
+	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_marshaled_pinvoke
+{
+	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_pinvoke ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_marshaled_com
+{
+	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_com ___m_Value;
+	int32_t ___m_Keyword;
+};
+struct JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86 
+{
+	JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___m_Visitor;
+	Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___m_Adapters;
+	StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 ___m_Value;
+	UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___m_View;
+	bool ___m_IsRoot;
+};
+struct List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB_StaticFields
+{
+	DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE* ___s_emptyArray;
+};
+struct TypeTraits_1_tA6731D901CB174519A942E6C76C2280B82CF255A_StaticFields
+{
+	bool ___U3CIsValueTypeU3Ek__BackingField;
+	bool ___U3CIsPrimitiveU3Ek__BackingField;
+	bool ___U3CIsInterfaceU3Ek__BackingField;
+	bool ___U3CIsAbstractU3Ek__BackingField;
+	bool ___U3CIsArrayU3Ek__BackingField;
+	bool ___U3CIsMultidimensionalArrayU3Ek__BackingField;
+	bool ___U3CIsEnumU3Ek__BackingField;
+	bool ___U3CIsEnumFlagsU3Ek__BackingField;
+	bool ___U3CIsNullableU3Ek__BackingField;
+	bool ___U3CIsObjectU3Ek__BackingField;
+	bool ___U3CIsStringU3Ek__BackingField;
+	bool ___U3CIsContainerU3Ek__BackingField;
+	bool ___U3CCanBeNullU3Ek__BackingField;
+	bool ___U3CIsPrimitiveOrStringU3Ek__BackingField;
+	bool ___U3CIsAbstractOrInterfaceU3Ek__BackingField;
+	bool ___U3CIsUnityObjectU3Ek__BackingField;
+	bool ___U3CIsLazyLoadReferenceU3Ek__BackingField;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_StaticFields
+{
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Zero;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_One;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Up;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Down;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Left;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Right;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Forward;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___s_Back;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 m_Items[1];
+
+	inline DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Payload), (void*)NULL);
+	}
+	inline DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Payload), (void*)NULL);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m444602EC400660BC69078FF37499510220ED66F5 (JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline (List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* __this, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD_m994D6CDF8423928C08A6790D54FAF05D9CA8C60D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mB1C98A85F6453EC5A14A69931EBFC74DE238B4D7 (JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A_m56509DD68BAEB7342C223A94725BB7E1270C92C3 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mDE68F4AB691884235625147D63484C388BD0694F (JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F_mC624CB8DBD278A422743C9750587E766A2628E77 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0983A9F94951B20319D3BF347FC3BAA6D5A97C7B (JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, float ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m603C455CAEBE3876A112FDF1414C204ECE8305C1 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, float* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m453A0CB362C5370A2C5D528E502F95AD80DA52C5 (JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B_m0F13A1914667C8154D387AEA5CDDB008C5F0CF7E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mDA24AAF615AB6A62469FB8CA18BD735ED025AA89 (JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3_m0031DA4EC4514F0D6C353FCCD8BF5200C4E81953 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0C89648852883EED2746F24AD74A31F469752F8A (JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866_m9218B5B22EF9E8C2EAA69BE989D1E72AFD1C6CA9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m1EDE338EB672869FD4CB20232EB9E15A4FC9D5B3 (JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008_mFE514FEE2B663FB1CFAB90A3D1F1D1BC6F757884 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mFFD5A6377E3B9E871486DB88BEDD3C61BD59A14C (JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910_mE336602C44AB76593889EADA1F5B040863FBA84E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6A27EB39A303338F29C57B0BF6D499E4F2DE18A9 (JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610_mBB20A2001500F272DB8BEF886B2B72D3D9E85D36 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mAD13D4C18E8F78EE7FBF5456B863FE85A6A1830E (JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841_mA4802D9AECF35C7A1ABA7E4695F5900B157FAF71 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m9864C3996CDFADA24EBA246C11668C8D1D53E077 (JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C_m3B66C8FF990B04945C6CEEDA473D0B53D782C76A (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m2A3519794919CFC91F5DA5537C70DA4285F7A7F2 (JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4_m04E0CB8157A7200ECEDC5917443E4269B4E5964D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m1FD0094B8D3E0F5FC06093F73F9F3001E944205B (JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D_mB9B274E77402172BB81949E1799B8CC9AA794A4D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6582887F7363072A577FA4926C9E48E26B9BBE9C (JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8_mB4F0C788B0CC920EE2477EB4F35A3DF1A699C6D8 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0C8F5E18F6D4289E69F73B54B1B958A439297129 (JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471_m652E022E9F266BC8CA69E22DB273FECFDD2BD577 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mF4708BEC0DC7BE6A1BFF74BBA06114C30B517CF3 (JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_mCF2F5760FBA438FDCA65CF3E544D5D4ABDB527E9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0AE50690DA65D37EA4C52FB3966C35097F77F85E (JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906_mB0D951EB3700B991C608B7CEA4364E7314C40236 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6A34AADC75E362822CD440BAC697195B804BA69F (JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B_mCB73BBD484206A01693E85148B045524D09F1455 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mDEB5B34C68304F2997C49F8527A30D97B3BAA663 (JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC_m4A2E51BE87415B4E4FF3EA4DF556C85617AC6317 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD0EA491B648D6C6ED082E7524273BD8EBF644C4A (JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A_mE17494D47EB2D7EEBB6CC857B11CE21FFB3E6656 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m28D100054E344DAF0B3C878C4D1B42B95AEA04E7 (JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252_m167D60E48E3E2D800FB10AC90CFA8EC3DAD4DC9B (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m84DF3D3A2A73719CF3B848A444519497CB9F1CCA (JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6_m0B04A141CA83667FC20E3995809412616CB58A2E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mEF15DB4A50E526FAFC305515F5CA649BA6BB6CCC (JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_m7F0A229B465F9C1646DED6F3FABBF23E6642AC7D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD79E69884D61410671D5C2BE3FB0AF8470BAFB77 (JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5_m6A514AF2B080D448A5AAD52F0A6C497EEB792793 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m39D201614379E4BAE4C6FCC7BE38458F3B680258 (JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A_m3E11C3460955C772010C05A20787C4F7A2EEA840 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6D39C689F36B43EEF8B52975E8CEA666F82C0B2A (JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05_m66484380BEEC1DE4FACE210DFD9965D3C096E0B9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m44456BF7927D2E331FB1261DB2B6045D45D3C51E (JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m1C81834DF78EF69B164268E8E9A09E00BDCEF0C0 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m594BC2107E94D9D7EF60D32CF3D8D5FED258E5DD (JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_mDE51070B32FD497875FB26BD72050C8550F7E335 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m8F2377DF0CE111E1895C6CF3DA397B8F9407B502 (JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502_mDE4489E8FB9A05CEC45786BEB12813F7CE6E91DC (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m4EB85EA8F98CACF2D9EDB7D34EC1BAEA0DFBF82E (JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTranslate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_m395A1558B82A3BB3155207060935B12E8ABA0F8F (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mB6A068402237B376E1849181C442B0211593A56A (JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, uint16_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mBA9A1B4FCE1F08749278B18B04D8FA6B67FCC9F4 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint16_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD9C14DD0FDB6BEEE4A344477C51C4CF5081C6FF1 (JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, uint32_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m92EC7B84B769E2B24340D6E2D7B3EAFD1CDA87C3 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint32_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m17615EFB8AE0D40B668FB051C4BB93A43889C09D (JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, uint64_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m67C6FAFA65A3F1F798413766296EAEB0C6087DF6 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint64_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m8821FB4B18B3A60D38AF1F1ABF1CFF6B42437A26 (JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7FECB0DAC0BFB5324A9D18E9CFB6C03915EDB406 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m47FBE8D747547CBD683675C9F644315D3A9F11C3 (JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m9FD1C30D5ECE02E73043D709BA3537DA2E71EBEA (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mC29D39623E2F73236E26B13FBDF19E0AFCF5D0F2 (JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_m48F322F6DF11F2F853CB46B7E447FA7593567706 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mEEAEA905F042CAEA56E7DF41700F935A5AC6ED99 (JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m0D3F8BAF4FA9C8CC3890212B308A28FEF5B16969 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD4FACDBDAE5EBF5751DAC3DE46F9D7CBF649D3F1_gshared (JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Il2CppSharedGenericObject* ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisIl2CppSharedGenericObject_mE25917CD0DC92F25816BAFAE7FE832A42CC88291_gshared (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Il2CppSharedGenericObject** ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m021B0892D029B2F4F07D915C410A04651A6E1EC0_fshared (JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Il2CppFullySharedGenericAny ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m768794AE851840FB6FC08CB101812526A68B2DAB_gshared (JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, int32_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_Tis__Il2CppInt32Enum_tE5E90BB5D60D5281C33DB29D9DCBD70D5E2E1F7B_m4704BA83967800CE50A8A0D624115EF38B0141A8_gshared (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, int32_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisIl2CppSharedGenericObject_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m18A00E24444FAC966A899CE013A96E2066339A28_gshared (Il2CppSharedGenericObject** ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mED637A33400ACCDA329D178A27F592524523761B_gshared (int64_t* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mE3B72257AE4F4DA60D361DA800DC543C63FADF7B_gshared (uint64_t* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m74823F20C8AF873A2B6104632A8F46B530FC1432_gshared (float* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m6507DA4CA169CBB6083B4A991BC1030FEF9B5CD0_gshared (bool* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsNullable_mB5AA79EEDC95AE6274B4C43AC6AAFCEA153F08E3_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultTypeConstruction_Construct_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m84911CAE289B63E7B863BA96C26856DCA2663B8B_gshared (KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___0_value, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializedReferences_AddDeserializedReference_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mF9C17632D390D9A2D594FC6A5F75344165E6BFEC_gshared (SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* __this, int32_t ___0_id, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyContainer_TryAccept_TisIl2CppSharedGenericObject_m5B2656784F8E36FE7BD3EBFEFC574900280A34F8_gshared (RuntimeObject* ___0_visitor, Il2CppSharedGenericObject** ___1_container, int32_t* ___2_returnCode, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___3_parameters, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyContainer_TryAccept_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m2B7DE33F18F7EA2F2A20F23FB72A25116A9F8513_gshared (RuntimeObject* ___0_visitor, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_container, int32_t* ___2_returnCode, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___3_parameters, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m33721C3206790908F95C4F736E10D66AC606B185 (List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* __this, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline (Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m444602EC400660BC69078FF37499510220ED66F5 (JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A (DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9* __this, int32_t ___0_type, RuntimeObject* ___1_payload, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline (List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* __this, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149 (Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD_m994D6CDF8423928C08A6790D54FAF05D9CA8C60D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mB1C98A85F6453EC5A14A69931EBFC74DE238B4D7 (JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A_m56509DD68BAEB7342C223A94725BB7E1270C92C3 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mDE68F4AB691884235625147D63484C388BD0694F (JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F_mC624CB8DBD278A422743C9750587E766A2628E77 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0983A9F94951B20319D3BF347FC3BAA6D5A97C7B (JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, float ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m603C455CAEBE3876A112FDF1414C204ECE8305C1 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, float* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m453A0CB362C5370A2C5D528E502F95AD80DA52C5 (JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B_m0F13A1914667C8154D387AEA5CDDB008C5F0CF7E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mDA24AAF615AB6A62469FB8CA18BD735ED025AA89 (JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3_m0031DA4EC4514F0D6C353FCCD8BF5200C4E81953 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0C89648852883EED2746F24AD74A31F469752F8A (JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866_m9218B5B22EF9E8C2EAA69BE989D1E72AFD1C6CA9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m1EDE338EB672869FD4CB20232EB9E15A4FC9D5B3 (JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008_mFE514FEE2B663FB1CFAB90A3D1F1D1BC6F757884 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mFFD5A6377E3B9E871486DB88BEDD3C61BD59A14C (JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910_mE336602C44AB76593889EADA1F5B040863FBA84E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6A27EB39A303338F29C57B0BF6D499E4F2DE18A9 (JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610_mBB20A2001500F272DB8BEF886B2B72D3D9E85D36 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mAD13D4C18E8F78EE7FBF5456B863FE85A6A1830E (JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841_mA4802D9AECF35C7A1ABA7E4695F5900B157FAF71 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m9864C3996CDFADA24EBA246C11668C8D1D53E077 (JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C_m3B66C8FF990B04945C6CEEDA473D0B53D782C76A (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m2A3519794919CFC91F5DA5537C70DA4285F7A7F2 (JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4_m04E0CB8157A7200ECEDC5917443E4269B4E5964D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m1FD0094B8D3E0F5FC06093F73F9F3001E944205B (JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D_mB9B274E77402172BB81949E1799B8CC9AA794A4D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6582887F7363072A577FA4926C9E48E26B9BBE9C (JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8_mB4F0C788B0CC920EE2477EB4F35A3DF1A699C6D8 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0C8F5E18F6D4289E69F73B54B1B958A439297129 (JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471_m652E022E9F266BC8CA69E22DB273FECFDD2BD577 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mF4708BEC0DC7BE6A1BFF74BBA06114C30B517CF3 (JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_mCF2F5760FBA438FDCA65CF3E544D5D4ABDB527E9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m0AE50690DA65D37EA4C52FB3966C35097F77F85E (JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906_mB0D951EB3700B991C608B7CEA4364E7314C40236 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6A34AADC75E362822CD440BAC697195B804BA69F (JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B_mCB73BBD484206A01693E85148B045524D09F1455 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mDEB5B34C68304F2997C49F8527A30D97B3BAA663 (JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC_m4A2E51BE87415B4E4FF3EA4DF556C85617AC6317 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD0EA491B648D6C6ED082E7524273BD8EBF644C4A (JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A_mE17494D47EB2D7EEBB6CC857B11CE21FFB3E6656 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m28D100054E344DAF0B3C878C4D1B42B95AEA04E7 (JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252_m167D60E48E3E2D800FB10AC90CFA8EC3DAD4DC9B (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m84DF3D3A2A73719CF3B848A444519497CB9F1CCA (JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6_m0B04A141CA83667FC20E3995809412616CB58A2E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mEF15DB4A50E526FAFC305515F5CA649BA6BB6CCC (JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_m7F0A229B465F9C1646DED6F3FABBF23E6642AC7D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD79E69884D61410671D5C2BE3FB0AF8470BAFB77 (JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisStyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5_m6A514AF2B080D448A5AAD52F0A6C497EEB792793 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m39D201614379E4BAE4C6FCC7BE38458F3B680258 (JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A_m3E11C3460955C772010C05A20787C4F7A2EEA840 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m6D39C689F36B43EEF8B52975E8CEA666F82C0B2A (JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05_m66484380BEEC1DE4FACE210DFD9965D3C096E0B9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m44456BF7927D2E331FB1261DB2B6045D45D3C51E (JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m1C81834DF78EF69B164268E8E9A09E00BDCEF0C0 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m594BC2107E94D9D7EF60D32CF3D8D5FED258E5DD (JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_mDE51070B32FD497875FB26BD72050C8550F7E335 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m8F2377DF0CE111E1895C6CF3DA397B8F9407B502 (JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502_mDE4489E8FB9A05CEC45786BEB12813F7CE6E91DC (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m4EB85EA8F98CACF2D9EDB7D34EC1BAEA0DFBF82E (JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisTranslate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_m395A1558B82A3BB3155207060935B12E8ABA0F8F (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mB6A068402237B376E1849181C442B0211593A56A (JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, uint16_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mBA9A1B4FCE1F08749278B18B04D8FA6B67FCC9F4 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint16_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mD9C14DD0FDB6BEEE4A344477C51C4CF5081C6FF1 (JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, uint32_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m92EC7B84B769E2B24340D6E2D7B3EAFD1CDA87C3 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint32_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m17615EFB8AE0D40B668FB051C4BB93A43889C09D (JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, uint64_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m67C6FAFA65A3F1F798413766296EAEB0C6087DF6 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint64_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m8821FB4B18B3A60D38AF1F1ABF1CFF6B42437A26 (JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7FECB0DAC0BFB5324A9D18E9CFB6C03915EDB406 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_m47FBE8D747547CBD683675C9F644315D3A9F11C3 (JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m9FD1C30D5ECE02E73043D709BA3537DA2E71EBEA (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mC29D39623E2F73236E26B13FBDF19E0AFCF5D0F2 (JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_m48F322F6DF11F2F853CB46B7E447FA7593567706 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonDeserializationContext_1__ctor_mEEAEA905F042CAEA56E7DF41700F935A5AC6ED99 (JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m0D3F8BAF4FA9C8CC3890212B308A28FEF5B16969 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) ;
+inline void JsonDeserializationContext_1__ctor_mD4FACDBDAE5EBF5751DAC3DE46F9D7CBF649D3F1 (JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Il2CppSharedGenericObject* ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method)
+{
+	((  void (*) (JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA*, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E*, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8, Il2CppSharedGenericObject*, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E, bool, const RuntimeMethod*))JsonDeserializationContext_1__ctor_mD4FACDBDAE5EBF5751DAC3DE46F9D7CBF649D3F1_gshared)(__this, ___0_visitor, ___1_adapters, ___2_value, ___3_view, ___4_isRoot, method);
+}
+inline void JsonPropertyReader_ReadValueWithoutAdapters_TisIl2CppSharedGenericObject_mE25917CD0DC92F25816BAFAE7FE832A42CC88291 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Il2CppSharedGenericObject** ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method)
+{
+	((  void (*) (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E*, Il2CppSharedGenericObject**, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E, bool, const RuntimeMethod*))JsonPropertyReader_ReadValueWithoutAdapters_TisIl2CppSharedGenericObject_mE25917CD0DC92F25816BAFAE7FE832A42CC88291_gshared)(__this, ___0_value, ___1_view, ___2_isRoot, method);
+}
+inline void JsonDeserializationContext_1__ctor_m021B0892D029B2F4F07D915C410A04651A6E1EC0 (JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, Il2CppFullySharedGenericAny ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method)
+{
+	((  void (*) (JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF*, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E*, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8, Il2CppFullySharedGenericAny, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E, bool, const RuntimeMethod*))JsonDeserializationContext_1__ctor_m021B0892D029B2F4F07D915C410A04651A6E1EC0_fshared)((JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF*)__this, ___0_visitor, ___1_adapters, ___2_value, ___3_view, ___4_isRoot, method);
+}
+inline void JsonDeserializationContext_1__ctor_m768794AE851840FB6FC08CB101812526A68B2DAB (JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___1_adapters, int32_t ___2_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___3_view, bool ___4_isRoot, const RuntimeMethod* method)
+{
+	((  void (*) (JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0*, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E*, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8, int32_t, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E, bool, const RuntimeMethod*))JsonDeserializationContext_1__ctor_m768794AE851840FB6FC08CB101812526A68B2DAB_gshared)(__this, ___0_visitor, ___1_adapters, ___2_value, ___3_view, ___4_isRoot, method);
+}
+inline void JsonPropertyReader_ReadValueWithoutAdapters_Tis__Il2CppInt32Enum_tE5E90BB5D60D5281C33DB29D9DCBD70D5E2E1F7B_m4704BA83967800CE50A8A0D624115EF38B0141A8 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, int32_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method)
+{
+	((  void (*) (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E*, int32_t*, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E, bool, const RuntimeMethod*))JsonPropertyReader_ReadValueWithoutAdapters_Tis__Il2CppInt32Enum_tE5E90BB5D60D5281C33DB29D9DCBD70D5E2E1F7B_m4704BA83967800CE50A8A0D624115EF38B0141A8_gshared)(__this, ___0_value, ___1_view, ___2_isRoot, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeValueView_get_Type_m3C8846F758989E5350799BBFDDAE7BFB4AD3D863 (UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeStringView_t74CDF255D567E727699F915667D4B9D456CBDF59 UnsafeValueView_AsStringView_m3524744B079885988287278F7D7EA74E0E0F2D1B (UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnsafeStringView_ToString_mE80F751805E27FD755FCFF4FEF804B92082E2022 (UnsafeStringView_t74CDF255D567E727699F915667D4B9D456CBDF59* __this, const RuntimeMethod* method) ;
+inline bool TypeConversion_TryConvert_TisString_t_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mB9B148EFA0562241B3FB5D27D1FDB8269BAC9407 (String_t** ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method)
+{
+	return ((  bool (*) (String_t**, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, const RuntimeMethod*))TypeConversion_TryConvert_TisIl2CppSharedGenericObject_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m18A00E24444FAC966A899CE013A96E2066339A28_gshared)(___0_source, ___1_destination, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14 UnsafeValueView_AsPrimitiveView_mC08D78F4BBD832FD571FC38E2E55BFB195B344CB (UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsIntegral_m2DEC7821294261E9CED2C08A47A7853AE0F2C026 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsSigned_m846CA9975E98AF3FF3B600C25311A34EC2C22942 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UnsafePrimitiveView_AsInt64_m06A881092CFC33F9029DCFD645E8C94085739E25 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+inline bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mED637A33400ACCDA329D178A27F592524523761B (int64_t* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method)
+{
+	return ((  bool (*) (int64_t*, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, const RuntimeMethod*))TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mED637A33400ACCDA329D178A27F592524523761B_gshared)(___0_source, ___1_destination, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t UnsafePrimitiveView_AsUInt64_mDE2C0C56D18F328CB66276A134EC6851FBA969A7 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+inline bool TypeConversion_TryConvert_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mE3B72257AE4F4DA60D361DA800DC543C63FADF7B (uint64_t* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method)
+{
+	return ((  bool (*) (uint64_t*, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, const RuntimeMethod*))TypeConversion_TryConvert_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mE3B72257AE4F4DA60D361DA800DC543C63FADF7B_gshared)(___0_source, ___1_destination, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsDecimal_m02D6F8F12D38CFDA4E0F495B8FEB2591E6F70207 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsInfinity_m7D67E8C87AAFAFFB609D5412F494F45BF598CF0B (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsNaN_mDC44C2C4E46EAC38DF51F0129BB4ABFF11D84239 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnsafePrimitiveView_AsFloat_mA6B85FE2A678F494AAD76C60C074E96183300A2F (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+inline bool TypeConversion_TryConvert_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m74823F20C8AF873A2B6104632A8F46B530FC1432 (float* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method)
+{
+	return ((  bool (*) (float*, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, const RuntimeMethod*))TypeConversion_TryConvert_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m74823F20C8AF873A2B6104632A8F46B530FC1432_gshared)(___0_source, ___1_destination, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsBoolean_mCAC47C37AB341FA2639568C6B09FCF80A2218797 (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_AsBoolean_m8DEA6F2D2EEAFE2001D78B0A1E7C7C33A6C4F20D (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+inline bool TypeConversion_TryConvert_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m6507DA4CA169CBB6083B4A991BC1030FEF9B5CD0 (bool* ___0_source, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_destination, const RuntimeMethod* method)
+{
+	return ((  bool (*) (bool*, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, const RuntimeMethod*))TypeConversion_TryConvert_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m6507DA4CA169CBB6083B4A991BC1030FEF9B5CD0_gshared)(___0_source, ___1_destination, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePrimitiveView_IsNull_mF1BD4524E84A53278CEBD431E3AF376173811E6E (UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeObjectView_tD5008393002152AFDA51B8951B8224C8A8336541 UnsafeValueView_AsObjectView_m6290F9D3141103E3E4AE96191812A43B3E989F64 (UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 JsonPropertyReader_GetSerializedContainerMetadata_mEE7A7F14139D956CBE583A2991BF795AC037BC5B (UnsafeObjectView_tD5008393002152AFDA51B8951B8224C8A8336541 ___0_view, const RuntimeMethod* method) ;
+inline bool TypeTraits_1_get_IsNullable_mB5AA79EEDC95AE6274B4C43AC6AAFCEA153F08E3_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsNullable_mB5AA79EEDC95AE6274B4C43AC6AAFCEA153F08E3_gshared_inline)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8 (Type_t* ___0_nullableType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SerializedReferences_GetDeserializedReference_m165C7F40D2BF692EB9A8436BD3C65178E26ED342 (SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* __this, int32_t ___0_id, const RuntimeMethod* method) ;
+inline void DefaultTypeConstruction_Construct_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m84911CAE289B63E7B863BA96C26856DCA2663B8B (KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___0_value, RuntimeObject* ___1_provider, const RuntimeMethod* method)
+{
+	((  void (*) (KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, RuntimeObject*, const RuntimeMethod*))DefaultTypeConstruction_Construct_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m84911CAE289B63E7B863BA96C26856DCA2663B8B_gshared)(___0_value, ___1_provider, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+inline void SerializedReferences_AddDeserializedReference_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mF9C17632D390D9A2D594FC6A5F75344165E6BFEC (SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* __this, int32_t ___0_id, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826 ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750*, int32_t, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826, const RuntimeMethod*))SerializedReferences_AddDeserializedReference_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mF9C17632D390D9A2D594FC6A5F75344165E6BFEC_gshared)(__this, ___0_id, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializedContainerMetadataScope__ctor_mD787F78B9632E2BAEE3F840027F624198F10737A (SerializedContainerMetadataScope_t5183BCE0CB15F36149D25291C9D8A63A16D41CF6* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 ___1_metadata, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializedContainerMetadataScope_Dispose_m4652CEE3820473A6BFC47DC54118A2DAB05433CA (SerializedContainerMetadataScope_t5183BCE0CB15F36149D25291C9D8A63A16D41CF6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeViewScope__ctor_m8B1EF2D91E86AC2CC7801A22A6249A7C6B04278F (UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3* __this, JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* ___0_visitor, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeViewScope_Dispose_mB38D862FD811A006D30F486ECB1DA88C14C31308 (UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A (RuntimeObject* ___0_value, Type_t* ___1_conversionType, const RuntimeMethod* method) ;
+inline bool PropertyContainer_TryAccept_TisRuntimeObject_mB6FB92B27875A6970EB6B2F948AE57066573F29D (RuntimeObject* ___0_visitor, RuntimeObject** ___1_container, int32_t* ___2_returnCode, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___3_parameters, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, RuntimeObject**, int32_t*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_TryAccept_TisIl2CppSharedGenericObject_m5B2656784F8E36FE7BD3EBFEFC574900280A34F8_gshared)(___0_visitor, ___1_container, ___2_returnCode, ___3_parameters, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidContainerTypeException__ctor_mD3139C3BDB58E245B4F75FAD5EA45B70B0432BF3 (InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA* __this, Type_t* ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MissingPropertyBagException__ctor_mB582A31DF4DFE137633AC161C68DD62E10B2CF4C (MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF* __this, Type_t* ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+inline bool PropertyContainer_TryAccept_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m2B7DE33F18F7EA2F2A20F23FB72A25116A9F8513 (RuntimeObject* ___0_visitor, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___1_container, int32_t* ___2_returnCode, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___3_parameters, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*, int32_t*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_TryAccept_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m2B7DE33F18F7EA2F2A20F23FB72A25116A9F8513_gshared)(___0_visitor, ___1_container, ___2_returnCode, ___3_parameters, method);
+}
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m33721C3206790908F95C4F736E10D66AC606B185 (List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* __this, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 ___0_item, const RuntimeMethod* method) ;
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisSerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD_m64E15251E078828BED960CB4F45829EF8A0E9B57 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* L_8 = ___0_value;
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD L_9 = (*(SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m444602EC400660BC69078FF37499510220ED66F5((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD L_13;
+		L_13 = InterfaceFuncInvoker1< SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD, JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* L_22 = ___0_value;
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD L_23 = (*(SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m444602EC400660BC69078FF37499510220ED66F5((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t98B1EDA73A5E46DC9F08D9A363DDAECBFC57A176 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD*)L_19 = ((*(SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		SerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedArrayView_tBA7871022802D9111BD34D83DCF54D1E0D2248FD_m994D6CDF8423928C08A6790D54FAF05D9CA8C60D(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisSerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A_m89DA4532ABD1A07E963AB4C23626ACDDF1EB753F (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* L_8 = ___0_value;
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A L_9 = (*(SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mB1C98A85F6453EC5A14A69931EBFC74DE238B4D7((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A L_13;
+		L_13 = InterfaceFuncInvoker1< SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A, JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* L_22 = ___0_value;
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A L_23 = (*(SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mB1C98A85F6453EC5A14A69931EBFC74DE238B4D7((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t6FC974656B185BD4B1EEFA67FF2E3B671BE2653C L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A*)L_19 = ((*(SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		SerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedObjectView_t0DEC5ADA6810F283A2F5B10CBD0EA4C0823FC65A_m56509DD68BAEB7342C223A94725BB7E1270C92C3(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisSerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F_mC21C13976A3B392D86BEF92A78E9F00A85D78105 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* L_8 = ___0_value;
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F L_9 = (*(SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mDE68F4AB691884235625147D63484C388BD0694F((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F L_13;
+		L_13 = InterfaceFuncInvoker1< SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F, JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* L_22 = ___0_value;
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F L_23 = (*(SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mDE68F4AB691884235625147D63484C388BD0694F((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t5B740E291999506F0DD6A2F5BE99D759C2F2922C L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F*)L_19 = ((*(SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		SerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisSerializedValueView_tB4BFDFF703A3EB35C1ED443E015819A9CFF4C82F_mC624CB8DBD278A422743C9750587E766A2628E77(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC64235360D900367B3083C6A07DD27196F7D44F1 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, float* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		float* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		float* L_8 = ___0_value;
+		float L_9 = (*(float*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m0983A9F94951B20319D3BF347FC3BAA6D5A97C7B((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		float L_13;
+		L_13 = InterfaceFuncInvoker1< float, JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(float*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		float* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		float* L_22 = ___0_value;
+		float L_23 = (*(float*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m0983A9F94951B20319D3BF347FC3BAA6D5A97C7B((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t9E293E89970B5C297161DAD8463FE79BC56C335F L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(float*)L_19 = ((*(float*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		float* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m603C455CAEBE3876A112FDF1414C204ECE8305C1(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B_mEF4CBB74417A1DAF6A839ABEB795830887D26D68 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* L_8 = ___0_value;
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B L_9 = (*(StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m453A0CB362C5370A2C5D528E502F95AD80DA52C5((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B L_13;
+		L_13 = InterfaceFuncInvoker1< StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B, JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_5)->___m_Value))->___m_Texture), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_5)->___m_Value))->___m_Sprite), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_5)->___m_Value))->___m_RenderTexture), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_5)->___m_Value))->___m_VectorImage), (void*)NULL);
+		#endif
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* L_22 = ___0_value;
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B L_23 = (*(StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m453A0CB362C5370A2C5D528E502F95AD80DA52C5((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tC4D9754E878BB1C478B6275D009109586552C79B L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_19 = ((*(StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_19)->___m_Value))->___m_Texture), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_19)->___m_Value))->___m_Sprite), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_19)->___m_Value))->___m_RenderTexture), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B*)L_19)->___m_Value))->___m_VectorImage), (void*)NULL);
+		#endif
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B_m0F13A1914667C8154D387AEA5CDDB008C5F0CF7E(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3_mC1EB6BBA387CA61B6A2D292A25621C6223AD5A3E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* L_8 = ___0_value;
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 L_9 = (*(StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mDA24AAF615AB6A62469FB8CA18BD735ED025AA89((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3, JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* L_22 = ___0_value;
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 L_23 = (*(StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mDA24AAF615AB6A62469FB8CA18BD735ED025AA89((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t0566E485960CCAAC6D8DD2D1BB6FB823F126C5BB L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3*)L_19 = ((*(StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3_m0031DA4EC4514F0D6C353FCCD8BF5200C4E81953(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866_m302E2AA9BCADEDA9B7FDA00032EAF43658FFD396 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* L_8 = ___0_value;
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 L_9 = (*(StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m0C89648852883EED2746F24AD74A31F469752F8A((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866, JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* L_22 = ___0_value;
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866 L_23 = (*(StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m0C89648852883EED2746F24AD74A31F469752F8A((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tBCAB7BBF2994752CA6E03F99E824853524BC504B L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866*)L_19 = ((*(StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundRepeat_t38B84958D5608FAA86B06F513716444EA06DB866_m9218B5B22EF9E8C2EAA69BE989D1E72AFD1C6CA9(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008_mFA3A6522B80873712C2474C06502D11E20B9AA3E (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* L_8 = ___0_value;
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 L_9 = (*(StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m1EDE338EB672869FD4CB20232EB9E15A4FC9D5B3((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008, JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* L_22 = ___0_value;
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008 L_23 = (*(StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m1EDE338EB672869FD4CB20232EB9E15A4FC9D5B3((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t4D17D739AAF41AFC57D7A5576CAE581D612D043D L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008*)L_19 = ((*(StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleBackgroundSize_t0904929E2E236696CEC8DBD4B1082E8313F84008_mFE514FEE2B663FB1CFAB90A3D1F1D1BC6F757884(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910_mED7A78710C4B8A67CE630B3C522EE54C66F805DE (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* L_8 = ___0_value;
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 L_9 = (*(StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mFFD5A6377E3B9E871486DB88BEDD3C61BD59A14C((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910, JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* L_22 = ___0_value;
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910 L_23 = (*(StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mFFD5A6377E3B9E871486DB88BEDD3C61BD59A14C((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t11DD80DC42C88110E679BF7D0CF68C1B940F2A1C L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910*)L_19 = ((*(StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleColor_tFC32BA34A15742AC48D6AACF8A137A6F71F04910_mE336602C44AB76593889EADA1F5B040863FBA84E(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610_m26E721DE1707B3A8015371832852B0280FC63F8D (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* L_8 = ___0_value;
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 L_9 = (*(StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m6A27EB39A303338F29C57B0BF6D499E4F2DE18A9((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610, JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* L_22 = ___0_value;
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610 L_23 = (*(StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m6A27EB39A303338F29C57B0BF6D499E4F2DE18A9((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t35CCE6A4330972F777B9AC14A6A95489DAFA3DC8 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610*)L_19 = ((*(StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleCursor_tE485E9D7E54AC3A3D514CD63313D77F75BD8C610_mBB20A2001500F272DB8BEF886B2B72D3D9E85D36(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841_m6B8A64CE9ECA27E8FF8701B0B93E15148B8ECB1F (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* L_8 = ___0_value;
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 L_9 = (*(StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mAD13D4C18E8F78EE7FBF5456B863FE85A6A1830E((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841, JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* L_22 = ___0_value;
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841 L_23 = (*(StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mAD13D4C18E8F78EE7FBF5456B863FE85A6A1830E((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t89A05B8D80F886074306B36AEC6FA8AB79E1DDFE L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841*)L_19 = ((*(StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841_mA4802D9AECF35C7A1ABA7E4695F5900B157FAF71(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C_m8D1395E948C7DF1D2CACA62871C3373F721ADCE1 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* L_8 = ___0_value;
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C L_9 = (*(StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m9864C3996CDFADA24EBA246C11668C8D1D53E077((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C L_13;
+		L_13 = InterfaceFuncInvoker1< StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C, JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)&(((StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)L_5)->___m_Value), (void*)NULL);
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* L_22 = ___0_value;
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C L_23 = (*(StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m9864C3996CDFADA24EBA246C11668C8D1D53E077((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t2D0634923F78A6478D6392C52051094D59901ACE L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)L_19 = ((*(StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		Il2CppCodeGenWriteBarrier((void**)&(((StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C*)L_19)->___m_Value), (void*)NULL);
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFont_t9D8A6F3E224B60FD8BA1522CE8AB0E2E8BE8B77C_m3B66C8FF990B04945C6CEEDA473D0B53D782C76A(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4_m20923C31D9D325D4EA716370A180C7D071DFF4C7 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* L_8 = ___0_value;
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 L_9 = (*(StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m2A3519794919CFC91F5DA5537C70DA4285F7A7F2((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4, JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_5)->___m_Value))->___m_Font), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_5)->___m_Value))->___m_FontAsset), (void*)NULL);
+		#endif
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* L_22 = ___0_value;
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4 L_23 = (*(StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m2A3519794919CFC91F5DA5537C70DA4285F7A7F2((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t89098957AB632C52BF216294FA38BE6789AF5991 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_19 = ((*(StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_19)->___m_Value))->___m_Font), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4*)L_19)->___m_Value))->___m_FontAsset), (void*)NULL);
+		#endif
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleFontDefinition_t0E1130277B322724A677D489018D219F014070F4_m04E0CB8157A7200ECEDC5917443E4269B4E5964D(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D_m822BDF7734979120F594195CF45DF6FDF0E6D568 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* L_8 = ___0_value;
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D L_9 = (*(StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m1FD0094B8D3E0F5FC06093F73F9F3001E944205B((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D L_13;
+		L_13 = InterfaceFuncInvoker1< StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D, JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* L_22 = ___0_value;
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D L_23 = (*(StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m1FD0094B8D3E0F5FC06093F73F9F3001E944205B((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tAC98DD347C5F9F0BB77DCB022956AC4AF82BB8AA L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D*)L_19 = ((*(StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleInt_tDC5B2FE9B1ABA54EEF85A7798F321F40BDC8B25D_mB9B274E77402172BB81949E1799B8CC9AA794A4D(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8_mDB36414FCDAA8AF6342457DA8295A19BE6191938 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* L_8 = ___0_value;
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 L_9 = (*(StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m6582887F7363072A577FA4926C9E48E26B9BBE9C((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8, JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* L_22 = ___0_value;
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 L_23 = (*(StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m6582887F7363072A577FA4926C9E48E26B9BBE9C((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t170655675B7D6799CADFC31470E21575D4EC3FF7 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8*)L_19 = ((*(StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8_mB4F0C788B0CC920EE2477EB4F35A3DF1A699C6D8(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471_m164651FAA6DAFF7B868C5ED0B0DD27FB3684E89B (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* L_8 = ___0_value;
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 L_9 = (*(StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m0C8F5E18F6D4289E69F73B54B1B958A439297129((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471, JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_5)->___m_Value))->___m_Material), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_5)->___m_Value))->___propertyValues), (void*)NULL);
+		#endif
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* L_22 = ___0_value;
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471 L_23 = (*(StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m0C8F5E18F6D4289E69F73B54B1B958A439297129((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t04C887B3E829A802982156707878426C580D75A3 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_19 = ((*(StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_19)->___m_Value))->___m_Material), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471*)L_19)->___m_Value))->___propertyValues), (void*)NULL);
+		#endif
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleMaterialDefinition_tD636761D4A563CA86667B8A4824D599FD008B471_m652E022E9F266BC8CA69E22DB273FECFDD2BD577(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_m3E684DE9EEB6DAF226E2CD99ADE2965A80F0C7AE (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* L_8 = ___0_value;
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF L_9 = (*(StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mF4708BEC0DC7BE6A1BFF74BBA06114C30B517CF3((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF L_13;
+		L_13 = InterfaceFuncInvoker1< StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF, JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)&(((StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)L_5)->___U3CnameU3Ek__BackingField), (void*)NULL);
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* L_22 = ___0_value;
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF L_23 = (*(StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mF4708BEC0DC7BE6A1BFF74BBA06114C30B517CF3((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t2463BFB45E6598574290AA258A18CE15F1657DE6 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)L_19 = ((*(StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		Il2CppCodeGenWriteBarrier((void**)&(((StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF*)L_19)->___U3CnameU3Ek__BackingField), (void*)NULL);
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_mCF2F5760FBA438FDCA65CF3E544D5D4ABDB527E9(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906_mC7DCE4E8324D800EC73AE190F66A306BB218C6B4 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* L_8 = ___0_value;
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 L_9 = (*(StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m0AE50690DA65D37EA4C52FB3966C35097F77F85E((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906, JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* L_22 = ___0_value;
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906 L_23 = (*(StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m0AE50690DA65D37EA4C52FB3966C35097F77F85E((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t10695EF4298F6DB60C15EADF28CAA9247FC22472 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906*)L_19 = ((*(StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleRatio_t7F5BA86302D3F11C5E1A8CB91AB7BFA3B5B75906_mB0D951EB3700B991C608B7CEA4364E7314C40236(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B_m929FCD48FE847C1E406F42640E013004D222B505 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* L_8 = ___0_value;
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B L_9 = (*(StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m6A34AADC75E362822CD440BAC697195B804BA69F((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B L_13;
+		L_13 = InterfaceFuncInvoker1< StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B, JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* L_22 = ___0_value;
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B L_23 = (*(StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m6A34AADC75E362822CD440BAC697195B804BA69F((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tD719B36479156A2ACF8D376E8F33106212ABA25A L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B*)L_19 = ((*(StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleRotate_t59305F0FBB44EA70AE332ECF9279C270B3F2283B_mCB73BBD484206A01693E85148B045524D09F1455(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC_m49CEA98B2B961801BDC79766066CA0BDDBE789BF (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* L_8 = ___0_value;
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC L_9 = (*(StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mDEB5B34C68304F2997C49F8527A30D97B3BAA663((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC L_13;
+		L_13 = InterfaceFuncInvoker1< StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC, JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* L_22 = ___0_value;
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC L_23 = (*(StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mDEB5B34C68304F2997C49F8527A30D97B3BAA663((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t999412DCF60798B5297BAEE7F4522F1E9FBCA4FC L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC*)L_19 = ((*(StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleScale_t45D687B313B39CD6FB3686ED44DECDDA402923BC_m4A2E51BE87415B4E4FF3EA4DF556C85617AC6317(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A_mC1E9B86ABF6A4A2CCCE29998F15F675605214D78 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* L_8 = ___0_value;
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A L_9 = (*(StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mD0EA491B648D6C6ED082E7524273BD8EBF644C4A((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A L_13;
+		L_13 = InterfaceFuncInvoker1< StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A, JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* L_22 = ___0_value;
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A L_23 = (*(StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mD0EA491B648D6C6ED082E7524273BD8EBF644C4A((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t217995B8197618C79C8778CE3AAD93E3D58294E4 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A*)L_19 = ((*(StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTextAutoSize_t1F33415D18D97D0242C4C2C450BEF0B475253F4A_mE17494D47EB2D7EEBB6CC857B11CE21FFB3E6656(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252_m75F6E691D5C9D549C7EDFA303F3CE13FBAEDDD01 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* L_8 = ___0_value;
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 L_9 = (*(StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m28D100054E344DAF0B3C878C4D1B42B95AEA04E7((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252, JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* L_22 = ___0_value;
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252 L_23 = (*(StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m28D100054E344DAF0B3C878C4D1B42B95AEA04E7((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tF40EBB65B86B039D214EF60E16045A97D8AF74E9 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252*)L_19 = ((*(StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTextShadow_tCDDF1FE733ADBAA5ACA3B74620D4728E83F54252_m167D60E48E3E2D800FB10AC90CFA8EC3DAD4DC9B(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6_m0FC1F21834261CC85EE570432A7CB82AA7E42FF9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* L_8 = ___0_value;
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 L_9 = (*(StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m84DF3D3A2A73719CF3B848A444519497CB9F1CCA((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6, JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* L_22 = ___0_value;
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6 L_23 = (*(StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m84DF3D3A2A73719CF3B848A444519497CB9F1CCA((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tBF36DAB0CAA83B6A39DCCDC5B21C3A4D0AE67DF8 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6*)L_19 = ((*(StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTransformOrigin_t708B2E73541ECAE23D286FE68D6BC2CCFAAB84A6_m0B04A141CA83667FC20E3995809412616CB58A2E(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_m8C3DBD885D36FD0C11BBC084AB1EC20C7CE25FF1 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* L_8 = ___0_value;
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 L_9 = (*(StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mEF15DB4A50E526FAFC305515F5CA649BA6BB6CCC((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089, JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* L_22 = ___0_value;
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089 L_23 = (*(StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mEF15DB4A50E526FAFC305515F5CA649BA6BB6CCC((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t89931FC1F299487E866658DA2741C12D2F2F6B86 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089*)L_19 = ((*(StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_m7F0A229B465F9C1646DED6F3FABBF23E6642AC7D(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisStyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5_m1F23198B40EEE167B6957702714674FA5F639931 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* L_8 = ___0_value;
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 L_9 = (*(StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mD79E69884D61410671D5C2BE3FB0AF8470BAFB77((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 L_13;
+		L_13 = InterfaceFuncInvoker1< StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5, JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)&(((StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)L_5)->___m_Value), (void*)NULL);
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* L_22 = ___0_value;
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5 L_23 = (*(StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mD79E69884D61410671D5C2BE3FB0AF8470BAFB77((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t35B8D31C668D5A596C2D366138138E0A9540ED74 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)L_19 = ((*(StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		Il2CppCodeGenWriteBarrier((void**)&(((StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5*)L_19)->___m_Value), (void*)NULL);
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		StyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisStyleUIAnimationClip_t086DB226C1ACBC1C18CBA748C1BEA3A07E820DE5_m6A514AF2B080D448A5AAD52F0A6C497EEB792793(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisTextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A_m258B9747557C19BF3142AFB4CF06A86A12EDC252 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* L_8 = ___0_value;
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A L_9 = (*(TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m39D201614379E4BAE4C6FCC7BE38458F3B680258((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A L_13;
+		L_13 = InterfaceFuncInvoker1< TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A, JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* L_22 = ___0_value;
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A L_23 = (*(TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m39D201614379E4BAE4C6FCC7BE38458F3B680258((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t222126F2C1DF8530CB37D6AC49C98456519792B0 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A*)L_19 = ((*(TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		TextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisTextAutoSize_t8B7DB1DB1B1C9EF3DE876BB4D487CB00DBE3207A_m3E11C3460955C772010C05A20787C4F7A2EEA840(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisTextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05_m2C3341D2DC4212BC23BA24CF1CA85927927E00D9 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* L_8 = ___0_value;
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 L_9 = (*(TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m6D39C689F36B43EEF8B52975E8CEA666F82C0B2A((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 L_13;
+		L_13 = InterfaceFuncInvoker1< TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05, JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* L_22 = ___0_value;
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 L_23 = (*(TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m6D39C689F36B43EEF8B52975E8CEA666F82C0B2A((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tE8AFD6031940956CBB7F4C0F7464358D8F08EF12 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05*)L_19 = ((*(TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisTextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05_m66484380BEEC1DE4FACE210DFD9965D3C096E0B9(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m0FF2DA9F1FB3861BED0816C8C125BC1BB58910F5 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_8 = ___0_value;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_9 = (*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m44456BF7927D2E331FB1261DB2B6045D45D3C51E((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_13;
+		L_13 = InterfaceFuncInvoker1< TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A, JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_22 = ___0_value;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_23 = (*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m44456BF7927D2E331FB1261DB2B6045D45D3C51E((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tFD0BDD4F279BBA1CBA3112787EA949737233E390 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_19 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m1C81834DF78EF69B164268E8E9A09E00BDCEF0C0(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_mBDC60CC8B970C05B8A694A4545C4C7003C76D49B (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* L_8 = ___0_value;
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E L_9 = (*(TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m594BC2107E94D9D7EF60D32CF3D8D5FED258E5DD((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E L_13;
+		L_13 = InterfaceFuncInvoker1< TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E, JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* L_22 = ___0_value;
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E L_23 = (*(TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m594BC2107E94D9D7EF60D32CF3D8D5FED258E5DD((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t6F814CA52CC83E9F4FBB797E2AE2A4518796E320 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E*)L_19 = ((*(TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_mDE51070B32FD497875FB26BD72050C8550F7E335(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisTransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502_m5563CC4B93938C8E7C762D8F6198FE2DF3E20EC2 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* L_8 = ___0_value;
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 L_9 = (*(TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m8F2377DF0CE111E1895C6CF3DA397B8F9407B502((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 L_13;
+		L_13 = InterfaceFuncInvoker1< TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502, JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* L_22 = ___0_value;
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 L_23 = (*(TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m8F2377DF0CE111E1895C6CF3DA397B8F9407B502((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t0B4F2F4A06CEAFE0882EC7ECA9A6D16077599F37 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502*)L_19 = ((*(TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisTransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502_mDE4489E8FB9A05CEC45786BEB12813F7CE6E91DC(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisTranslate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_m56092A7D70BE5662C926EFBD1EE2345550940A98 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* L_8 = ___0_value;
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E L_9 = (*(Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m4EB85EA8F98CACF2D9EDB7D34EC1BAEA0DFBF82E((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E L_13;
+		L_13 = InterfaceFuncInvoker1< Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E, JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* L_22 = ___0_value;
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E L_23 = (*(Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m4EB85EA8F98CACF2D9EDB7D34EC1BAEA0DFBF82E((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tE42696402C7DBE918381E7AB5D9A55D500A403CF L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E*)L_19 = ((*(Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisTranslate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_m395A1558B82A3BB3155207060935B12E8ABA0F8F(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mBCC09198279B4304FD296066075837216B8E4FEF (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint16_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		uint16_t* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		uint16_t* L_8 = ___0_value;
+		uint16_t L_9 = (*(uint16_t*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mB6A068402237B376E1849181C442B0211593A56A((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		uint16_t L_13;
+		L_13 = InterfaceFuncInvoker1< uint16_t, JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(uint16_t*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		uint16_t* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		uint16_t* L_22 = ___0_value;
+		uint16_t L_23 = (*(uint16_t*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mB6A068402237B376E1849181C442B0211593A56A((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tEB388E8B90953FC8349599607DEC8D007D07C673 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(uint16_t*)L_19 = ((*(uint16_t*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		uint16_t* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mBA9A1B4FCE1F08749278B18B04D8FA6B67FCC9F4(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m7E400F27F8FED05D7FD358B530C6362E5C325CDC (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint32_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		uint32_t* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		uint32_t* L_8 = ___0_value;
+		uint32_t L_9 = (*(uint32_t*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mD9C14DD0FDB6BEEE4A344477C51C4CF5081C6FF1((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		uint32_t L_13;
+		L_13 = InterfaceFuncInvoker1< uint32_t, JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(uint32_t*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		uint32_t* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		uint32_t* L_22 = ___0_value;
+		uint32_t L_23 = (*(uint32_t*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mD9C14DD0FDB6BEEE4A344477C51C4CF5081C6FF1((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tD5B38F642F7E49DD0618FCD02E20A55F7009184C L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(uint32_t*)L_19 = ((*(uint32_t*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		uint32_t* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m92EC7B84B769E2B24340D6E2D7B3EAFD1CDA87C3(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m507D1877A486A7834D0B4CB592AEAC97A5E671F5 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, uint64_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		uint64_t* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		uint64_t* L_8 = ___0_value;
+		uint64_t L_9 = (*(uint64_t*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m17615EFB8AE0D40B668FB051C4BB93A43889C09D((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		uint64_t L_13;
+		L_13 = InterfaceFuncInvoker1< uint64_t, JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(uint64_t*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		uint64_t* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		uint64_t* L_22 = ___0_value;
+		uint64_t L_23 = (*(uint64_t*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m17615EFB8AE0D40B668FB051C4BB93A43889C09D((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tD247F85CBD2A638F912A307AFD46FE24D74F52D9 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(uint64_t*)L_19 = ((*(uint64_t*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		uint64_t* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m67C6FAFA65A3F1F798413766296EAEB0C6087DF6(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m0CAA44B50F92CE64B17DE4310EFEC75190002F23 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_8 = ___0_value;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m8821FB4B18B3A60D38AF1F1ABF1CFF6B42437A26((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
+		L_13 = InterfaceFuncInvoker1< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_22 = ___0_value;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m8821FB4B18B3A60D38AF1F1ABF1CFF6B42437A26((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t6FD8D2C6A99CA3AC7A3E96F933C53E881D3FE08B L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_19 = ((*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7FECB0DAC0BFB5324A9D18E9CFB6C03915EDB406(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m85D5BDF004D70C092EBD2E7EEFE03539CD7293DD (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_8 = ___0_value;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m47FBE8D747547CBD683675C9F644315D3A9F11C3((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = InterfaceFuncInvoker1< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_22 = ___0_value;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m47FBE8D747547CBD683675C9F644315D3A9F11C3((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tA0B135E5758605117B84EA2E997D5D5B9B8E03A3 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_19 = ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m9FD1C30D5ECE02E73043D709BA3537DA2E71EBEA(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_mC4D979440424AD90102007088ADEB74724343722 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_8 = ___0_value;
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_9 = (*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mC29D39623E2F73236E26B13FBDF19E0AFCF5D0F2((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_13;
+		L_13 = InterfaceFuncInvoker1< Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_22 = ___0_value;
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_23 = (*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mC29D39623E2F73236E26B13FBDF19E0AFCF5D0F2((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tDC7FFA3A2D1257FE142FA0E32BE3CAA4DE89F2EE L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_19 = ((*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_m48F322F6DF11F2F853CB46B7E447FA7593567706(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m789EDD371E770A7A78290DC4DBF3CDC757E25155 (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_8 = ___0_value;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9 = (*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mEEAEA905F042CAEA56E7DF41700F935A5AC6ED99((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13;
+		L_13 = InterfaceFuncInvoker1< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_22 = ___0_value;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_23 = (*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mEEAEA905F042CAEA56E7DF41700F935A5AC6ED99((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t3B8CC871B729FC1072BEF6BFEC7B7A8A8F284FBA L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)L_19 = ((*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m0D3F8BAF4FA9C8CC3890212B308A28FEF5B16969(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisIl2CppSharedGenericObject_mB64A2BC1DB6F86F8D0AD5C41D1EADA03D5CF4A60_gshared (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Il2CppSharedGenericObject** ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Il2CppSharedGenericObject** L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Il2CppSharedGenericObject** L_8 = ___0_value;
+		Il2CppSharedGenericObject* L_9 = (*(Il2CppSharedGenericObject**)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_mD4FACDBDAE5EBF5751DAC3DE46F9D7CBF649D3F1((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		Il2CppSharedGenericObject* L_13;
+		L_13 = InterfaceFuncInvoker1< Il2CppSharedGenericObject*, JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(Il2CppSharedGenericObject**)L_5 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(Il2CppSharedGenericObject**)L_5, (void*)L_13);
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Il2CppSharedGenericObject** L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		Il2CppSharedGenericObject** L_22 = ___0_value;
+		Il2CppSharedGenericObject* L_23 = (*(Il2CppSharedGenericObject**)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_mD4FACDBDAE5EBF5751DAC3DE46F9D7CBF649D3F1((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_tC7BF742F3ADEBED38E6613775C1AD7B7A85E33BA L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(Il2CppSharedGenericObject**)L_19 = ((Il2CppSharedGenericObject*)Castclass((RuntimeObject*)L_29, il2cpp_rgctx_data(method->rgctx_data, 2)));
+		Il2CppCodeGenWriteBarrier((void**)(Il2CppSharedGenericObject**)L_19, (void*)((Il2CppSharedGenericObject*)Castclass((RuntimeObject*)L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Il2CppSharedGenericObject** L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_TisIl2CppSharedGenericObject_mE25917CD0DC92F25816BAFAE7FE832A42CC88291(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_TisIl2CppFullySharedGenericAny_m43B039D8A9291FC754AE690C2E1DF735BD6EC88D_fshared (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, Il2CppFullySharedGenericAny* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	const uint32_t SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17 = il2cpp_codegen_sizeof(il2cpp_rgctx_data(method->rgctx_data, 3));
+	const uint32_t SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C = il2cpp_codegen_sizeof(il2cpp_rgctx_data(method->rgctx_data, 2));
+	const Il2CppFullySharedGenericAny L_9 = alloca(SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+	const Il2CppFullySharedGenericAny L_24 = L_9;
+	const Il2CppFullySharedGenericAny L_12 = alloca(SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+	const Il2CppFullySharedGenericAny L_27 = L_12;
+	const Il2CppFullySharedGenericAny L_14 = alloca(SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+	const Il2CppFullySharedGenericAny L_31 = L_14;
+	const JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF L_13 = alloca(SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17);
+	const JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF L_28 = L_13;
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF V_3 = alloca(SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17);
+	memset(V_3, 0, SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17);
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		Il2CppFullySharedGenericAny* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		Il2CppFullySharedGenericAny* L_8 = ___0_value;
+		il2cpp_codegen_memcpy(L_9, L_8, SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		memset(L_13, 0, SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17);
+		JsonDeserializationContext_1__ctor_m021B0892D029B2F4F07D915C410A04651A6E1EC0((JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF*)L_13, __this, L_7, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data(method->rgctx_data, 2)) ? il2cpp_codegen_memcpy(L_12, L_9, SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C): *(void**)L_9), L_10, L_11, il2cpp_rgctx_method(method->rgctx_data, 4));
+		il2cpp_codegen_memcpy(V_3, L_13, SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17);
+		NullCheck(L_6);
+		InterfaceActionInvoker2Invoker< JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF*, Il2CppFullySharedGenericAny* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF*)V_3, (Il2CppFullySharedGenericAny*)L_14);
+		il2cpp_codegen_memcpy((Il2CppFullySharedGenericAny*)L_5, L_14, SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->rgctx_data, 2), (void**)(Il2CppFullySharedGenericAny*)L_5, (void*)L_14);
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_15 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_15;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_16 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_16);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_17 = L_16->___Events;
+		Exception_t* L_18 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_19), 4, L_18, NULL);
+		NullCheck(L_17);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_17, L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		Il2CppFullySharedGenericAny* L_20 = ___0_value;
+		RuntimeObject* L_21 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_22 = ___2_adapters;
+		Il2CppFullySharedGenericAny* L_23 = ___0_value;
+		il2cpp_codegen_memcpy(L_24, L_23, SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_25 = ___1_view;
+		bool L_26 = ___3_isRoot;
+		memset(L_28, 0, SizeOf_JsonDeserializationContext_1_t5A1CAA3568A5B133371C889FD0D5418ACB42CF17);
+		JsonDeserializationContext_1__ctor_m021B0892D029B2F4F07D915C410A04651A6E1EC0((JsonDeserializationContext_1_t8D7ECBE59421167A2E793F43282462F7900FC2BF*)L_28, __this, L_22, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data(method->rgctx_data, 2)) ? il2cpp_codegen_memcpy(L_27, L_24, SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C): *(void**)L_24), L_25, L_26, il2cpp_rgctx_method(method->rgctx_data, 4));
+		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), L_28);
+		NullCheck(L_21);
+		RuntimeObject* L_30;
+		L_30 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_21, (RuntimeObject*)L_29);
+		void* L_32 = UnBox_Any(L_30, il2cpp_rgctx_data(method->rgctx_data, 2), L_31);
+		il2cpp_codegen_memcpy((Il2CppFullySharedGenericAny*)L_20, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_32)), SizeOf_TValue_tE5C83591634DB66E5243AD7195A08A989892C08C);
+		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->rgctx_data, 2), (void**)(Il2CppFullySharedGenericAny*)L_20, (void*)(((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_32)));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_33 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_33;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_34 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_34);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_35 = L_34->___Events;
+		Exception_t* L_36 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_37;
+		memset((&L_37), 0, sizeof(L_37));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_37), 4, L_36, NULL);
+		NullCheck(L_35);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_35, L_37, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_38;
+		L_38 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_38)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		Il2CppFullySharedGenericAny* L_39 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_40 = ___1_view;
+		bool L_41 = ___3_isRoot;
+		((  void (*) (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E*, Il2CppFullySharedGenericAny*, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(__this, L_39, L_40, L_41, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithAdapters_Tis__Il2CppInt32Enum_tE5E90BB5D60D5281C33DB29D9DCBD70D5E2E1F7B_mA6F81E000DD0E4FE6F09E59DC4EB47F4FF2C648E_gshared (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, int32_t* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 ___2_adapters, bool ___3_isRoot, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		goto IL_00ab;
+	}
+
+IL_0005:
+	{
+		RuntimeObject* L_0;
+		L_0 = Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline((&___2_adapters), NULL);
+		V_2 = L_0;
+		RuntimeObject* L_1 = V_2;
+		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0)));
+		RuntimeObject* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RuntimeObject* L_3 = V_2;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		RuntimeObject* L_4 = V_1;
+		if (L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0026:
+	{
+	}
+	try
+	{
+		int32_t* L_5 = ___0_value;
+		RuntimeObject* L_6 = V_0;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_7 = ___2_adapters;
+		int32_t* L_8 = ___0_value;
+		int32_t L_9 = (*(int32_t*)L_8);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_10 = ___1_view;
+		bool L_11 = ___3_isRoot;
+		JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		JsonDeserializationContext_1__ctor_m768794AE851840FB6FC08CB101812526A68B2DAB((&L_12), __this, L_7, L_9, L_10, L_11, NULL);
+		V_3 = L_12;
+		NullCheck(L_6);
+		int32_t L_13;
+		L_13 = InterfaceFuncInvoker1< int32_t, JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 0), L_6, (&V_3));
+		*(int32_t*)L_5 = L_13;
+		goto IL_0064;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0048;
+		}
+		throw e;
+	}
+
+CATCH_0048:
+	{
+		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_14;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_15 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_15);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_16 = L_15->___Events;
+		Exception_t* L_17 = V_4;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_18), 4, L_17, NULL);
+		NullCheck(L_16);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_16, L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		return;
+	}
+
+IL_0065:
+	{
+	}
+	try
+	{
+		int32_t* L_19 = ___0_value;
+		RuntimeObject* L_20 = V_1;
+		Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8 L_21 = ___2_adapters;
+		int32_t* L_22 = ___0_value;
+		int32_t L_23 = (*(int32_t*)L_22);
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_24 = ___1_view;
+		bool L_25 = ___3_isRoot;
+		JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		JsonDeserializationContext_1__ctor_m768794AE851840FB6FC08CB101812526A68B2DAB((&L_26), __this, L_21, L_23, L_24, L_25, NULL);
+		JsonDeserializationContext_1_t582231E51B1F42D9E1E3C6D2021E30DD304D69E0 L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->rgctx_data, 3), &L_27);
+		NullCheck(L_20);
+		RuntimeObject* L_29;
+		L_29 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(1, il2cpp_rgctx_data_init(method->rgctx_data, 1), L_20, (RuntimeObject*)L_28);
+		*(int32_t*)L_19 = ((*(int32_t*)UnBox(L_29, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		goto IL_00aa;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008e;
+		}
+		throw e;
+	}
+
+CATCH_008e:
+	{
+		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_30;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_31 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_31);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_32 = L_31->___Events;
+		Exception_t* L_33 = V_5;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_34), 4, L_33, NULL);
+		NullCheck(L_32);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_32, L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00aa;
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+
+IL_00ab:
+	{
+		bool L_35;
+		L_35 = Enumerator_MoveNext_mDE337CFBAEB2C428CA8DE18C40DD18B6393DB149((&___2_adapters), NULL);
+		if (L_35)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		int32_t* L_36 = ___0_value;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_37 = ___1_view;
+		bool L_38 = ___3_isRoot;
+		JsonPropertyReader_ReadValueWithoutAdapters_Tis__Il2CppInt32Enum_tE5E90BB5D60D5281C33DB29D9DCBD70D5E2E1F7B_m4704BA83967800CE50A8A0D624115EF38B0141A8(__this, L_36, L_37, L_38, il2cpp_rgctx_method(method->rgctx_data, 7));
+		return;
+	}
+}
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87444
+// Method Definition Index: 87445
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyReader_ReadValueWithoutAdapters_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m9248FD2233019F6462DF52594D0701F9E9FED21B_gshared (JsonPropertyReader_t306DCAF5A5E87D6E2619E2FEEB80AD83A639BC3E* __this, KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* ___0_value, UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E ___1_view, bool ___2_isRoot, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PropertyContainer_TryAccept_TisRuntimeObject_mB6FB92B27875A6970EB6B2F948AE57066573F29D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5B2022F50F868894692162C4E9D94C36C41AA2A);
+		il2cpp_rgctx_method_init(method);
+	}
+	CHECKED_LOCAL(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_StaticInit);
+	CHECKED_LOCAL(TypeTraits_1_tCD336C0FA2454B0DA22CDF00D8BC5231D503F0E0_StaticInit);
+	CHECKED_LOCAL(Type_t_StaticInit);
+	CHECKED_LOCAL(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_StaticInit);
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	UnsafeStringView_t74CDF255D567E727699F915667D4B9D456CBDF59 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int64_t V_4 = 0;
+	uint64_t V_5 = 0;
+	float V_6 = 0.0f;
+	bool V_7 = false;
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* V_10 = NULL;
+	SerializedContainerMetadataScope_t5183BCE0CB15F36149D25291C9D8A63A16D41CF6 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Type_t* V_13 = NULL;
+	RuntimeObject* V_14 = NULL;
+	int32_t V_15 = 0;
+	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 G_B19_0;
+	memset((&G_B19_0), 0, sizeof(G_B19_0));
+	SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* G_B21_0 = NULL;
+	SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* G_B20_0 = NULL;
+	Type_t* G_B22_0 = NULL;
+	SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* G_B22_1 = NULL;
+	SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* G_B34_0 = NULL;
+	SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* G_B33_0 = NULL;
+	{
+		int32_t L_0;
+		L_0 = UnsafeValueView_get_Type_m3C8846F758989E5350799BBFDDAE7BFB4AD3D863((&___1_view), NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)3)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)4)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		goto IL_00d3;
+	}
+
+IL_0015:
+	{
+		UnsafeStringView_t74CDF255D567E727699F915667D4B9D456CBDF59 L_3;
+		L_3 = UnsafeValueView_AsStringView_m3524744B079885988287278F7D7EA74E0E0F2D1B((&___1_view), NULL);
+		V_2 = L_3;
+		String_t* L_4;
+		L_4 = UnsafeStringView_ToString_mE80F751805E27FD755FCFF4FEF804B92082E2022((&V_2), NULL);
+		V_1 = L_4;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_5 = ___0_value;
+		CHECKED_LOCAL_INIT(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_StaticInit,(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_6;
+		L_6 = TypeConversion_TryConvert_TisString_t_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mB9B148EFA0562241B3FB5D27D1FDB8269BAC9407((&V_1), L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
+		return;
+	}
+
+IL_0035:
+	{
+		UnsafePrimitiveView_t002681A6024710B55A17D2F8A2B2DF749A9CCF14 L_7;
+		L_7 = UnsafeValueView_AsPrimitiveView_mC08D78F4BBD832FD571FC38E2E55BFB195B344CB((&___1_view), NULL);
+		V_3 = L_7;
+		bool L_8;
+		L_8 = UnsafePrimitiveView_IsIntegral_m2DEC7821294261E9CED2C08A47A7853AE0F2C026((&V_3), NULL);
+		if (!L_8)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		bool L_9;
+		L_9 = UnsafePrimitiveView_IsSigned_m846CA9975E98AF3FF3B600C25311A34EC2C22942((&V_3), NULL);
+		if (!L_9)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		int64_t L_10;
+		L_10 = UnsafePrimitiveView_AsInt64_m06A881092CFC33F9029DCFD645E8C94085739E25((&V_3), NULL);
+		V_4 = L_10;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_11 = ___0_value;
+		CHECKED_LOCAL_INIT(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_StaticInit,(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mED637A33400ACCDA329D178A27F592524523761B((&V_4), L_11, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return;
+	}
+
+IL_0062:
+	{
+		uint64_t L_13;
+		L_13 = UnsafePrimitiveView_AsUInt64_mDE2C0C56D18F328CB66276A134EC6851FBA969A7((&V_3), NULL);
+		V_5 = L_13;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_14 = ___0_value;
+		CHECKED_LOCAL_INIT(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_StaticInit,(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_15;
+		L_15 = TypeConversion_TryConvert_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mE3B72257AE4F4DA60D361DA800DC543C63FADF7B((&V_5), L_14, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return;
+	}
+
+IL_0075:
+	{
+		bool L_16;
+		L_16 = UnsafePrimitiveView_IsDecimal_m02D6F8F12D38CFDA4E0F495B8FEB2591E6F70207((&V_3), NULL);
+		if (L_16)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		bool L_17;
+		L_17 = UnsafePrimitiveView_IsInfinity_m7D67E8C87AAFAFFB609D5412F494F45BF598CF0B((&V_3), NULL);
+		if (L_17)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		bool L_18;
+		L_18 = UnsafePrimitiveView_IsNaN_mDC44C2C4E46EAC38DF51F0129BB4ABFF11D84239((&V_3), NULL);
+		if (!L_18)
+		{
+			goto IL_00a3;
+		}
+	}
+
+IL_0090:
+	{
+		float L_19;
+		L_19 = UnsafePrimitiveView_AsFloat_mA6B85FE2A678F494AAD76C60C074E96183300A2F((&V_3), NULL);
+		V_6 = L_19;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_20 = ___0_value;
+		CHECKED_LOCAL_INIT(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_StaticInit,(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_21;
+		L_21 = TypeConversion_TryConvert_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m74823F20C8AF873A2B6104632A8F46B530FC1432((&V_6), L_20, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return;
+	}
+
+IL_00a3:
+	{
+		bool L_22;
+		L_22 = UnsafePrimitiveView_IsBoolean_mCAC47C37AB341FA2639568C6B09FCF80A2218797((&V_3), NULL);
+		if (!L_22)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		bool L_23;
+		L_23 = UnsafePrimitiveView_AsBoolean_m8DEA6F2D2EEAFE2001D78B0A1E7C7C33A6C4F20D((&V_3), NULL);
+		V_7 = L_23;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_24 = ___0_value;
+		CHECKED_LOCAL_INIT(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_StaticInit,(TypeConversion_tC95A24AF93E22908A5717FBF24E5089C963863E9_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_25;
+		L_25 = TypeConversion_TryConvert_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m6507DA4CA169CBB6083B4A991BC1030FEF9B5CD0((&V_7), L_24, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return;
+	}
+
+IL_00bf:
+	{
+		bool L_26;
+		L_26 = UnsafePrimitiveView_IsNull_mF1BD4524E84A53278CEBD431E3AF376173811E6E((&V_3), NULL);
+		if (!L_26)
+		{
+			goto IL_034b;
+		}
+	}
+	{
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_27 = ___0_value;
+		il2cpp_codegen_initobj(L_27, sizeof(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826));
+		return;
+	}
+
+IL_00d3:
+	{
+		int32_t L_28;
+		L_28 = UnsafeValueView_get_Type_m3C8846F758989E5350799BBFDDAE7BFB4AD3D863((&___1_view), NULL);
+		if ((((int32_t)L_28) == ((int32_t)1)))
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_9), sizeof(SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8));
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_29 = V_9;
+		G_B19_0 = L_29;
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		UnsafeObjectView_tD5008393002152AFDA51B8951B8224C8A8336541 L_30;
+		L_30 = UnsafeValueView_AsObjectView_m6290F9D3141103E3E4AE96191812A43B3E989F64((&___1_view), NULL);
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_31;
+		L_31 = JsonPropertyReader_GetSerializedContainerMetadata_mEE7A7F14139D956CBE583A2991BF795AC037BC5B(L_30, NULL);
+		G_B19_0 = L_31;
+	}
+
+IL_00f5:
+	{
+		V_8 = G_B19_0;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_32 = __this->___m_SerializedTypeProvider;
+		UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_33 = ___1_view;
+		NullCheck(L_32);
+		L_32->___View = L_33;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_34 = __this->___m_SerializedTypeProvider;
+		bool L_35 = ___2_isRoot;
+		if (L_35)
+		{
+			G_B21_0 = L_34;
+			goto IL_010f;
+		}
+		G_B20_0 = L_34;
+	}
+	{
+		G_B22_0 = ((Type_t*)(NULL));
+		G_B22_1 = G_B20_0;
+		goto IL_0115;
+	}
+
+IL_010f:
+	{
+		Type_t* L_36 = __this->___m_SerializedType;
+		G_B22_0 = L_36;
+		G_B22_1 = G_B21_0;
+	}
+
+IL_0115:
+	{
+		NullCheck(G_B22_1);
+		G_B22_1->___SerializedType = G_B22_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B22_1->___SerializedType), (void*)G_B22_0);
+		CHECKED_LOCAL_INIT(TypeTraits_1_tCD336C0FA2454B0DA22CDF00D8BC5231D503F0E0_StaticInit,(il2cpp_rgctx_data(method->rgctx_data, 7)),il2cpp_codegen_runtime_class_init_inline);
+		bool L_37;
+		L_37 = TypeTraits_1_get_IsNullable_mB5AA79EEDC95AE6274B4C43AC6AAFCEA153F08E3_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
+		if (!L_37)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_38 = __this->___m_SerializedTypeProvider;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_39 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 8)) };
+		CHECKED_LOCAL_INIT(Type_t_StaticInit,(Type_t_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Type_t* L_40;
+		L_40 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_39, NULL);
+		Type_t* L_41;
+		L_41 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_40, NULL);
+		NullCheck(L_38);
+		L_38->___SerializedType = L_41;
+		Il2CppCodeGenWriteBarrier((void**)(&L_38->___SerializedType), (void*)L_41);
+	}
+
+IL_013b:
+	{
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_42 = V_8;
+		bool L_43 = L_42.___IsSerializedReference;
+		if (!L_43)
+		{
+			goto IL_018b;
+		}
+	}
+	{
+		SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* L_44 = __this->___m_SerializedReferences;
+		if (L_44)
+		{
+			goto IL_016d;
+		}
+	}
+	{
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_45 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_45);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_46 = L_45->___Events;
+		Exception_t* L_47 = (Exception_t*)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_47, _stringLiteralC5B2022F50F868894692162C4E9D94C36C41AA2A, NULL);
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_48;
+		memset((&L_48), 0, sizeof(L_48));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_48), 4, L_47, NULL);
+		NullCheck(L_46);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_46, L_48, List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var);
+		return;
+	}
+
+IL_016d:
+	{
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_49 = ___0_value;
+		SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* L_50 = __this->___m_SerializedReferences;
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_51 = V_8;
+		int32_t L_52 = L_51.___SerializedId;
+		NullCheck(L_50);
+		RuntimeObject* L_53;
+		L_53 = SerializedReferences_GetDeserializedReference_m165C7F40D2BF692EB9A8436BD3C65178E26ED342(L_50, L_52, NULL);
+		*(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_49 = ((*(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)UnBox(L_53, il2cpp_rgctx_data(method->rgctx_data, 5))));
+		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_49)->___key), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_49)->___value), (void*)NULL);
+		#endif
+		return;
+	}
+
+IL_018b:
+	{
+	}
+	try
+	{
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_54 = ___0_value;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_55 = __this->___m_SerializedTypeProvider;
+		DefaultTypeConstruction_Construct_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m84911CAE289B63E7B863BA96C26856DCA2663B8B(L_54, L_55, il2cpp_rgctx_method(method->rgctx_data, 9));
+		goto IL_01c3;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_019a;
+		}
+		throw e;
+	}
+
+CATCH_019a:
+	{
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_56 = ((ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)IL2CPP_GET_ACTIVE_EXCEPTION(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*));;
+		V_10 = L_56;
+		SerializedTypeProvider_tE7EB1F85ABDA864F047757B1A9C0C22C2F0A4BFD* L_57 = __this->___m_SerializedTypeProvider;
+		NullCheck(L_57);
+		List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* L_58 = L_57->___Events;
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_59 = V_10;
+		NullCheck(L_59);
+		String_t* L_60;
+		L_60 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_59);
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_61 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_61, L_60, NULL);
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_62;
+		memset((&L_62), 0, sizeof(L_62));
+		DeserializationEvent__ctor_m764E62C4401CE492B4682A6EE1B3043E59F7CE4A((&L_62), 4, L_61, NULL);
+		NullCheck(L_58);
+		List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline(L_58, L_62, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_034b;
+	}
+
+IL_01c3:
+	{
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_63 = V_8;
+		bool L_64 = L_63.___HasSerializedId;
+		if (!L_64)
+		{
+			goto IL_01ea;
+		}
+	}
+	{
+		SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* L_65 = __this->___m_SerializedReferences;
+		SerializedReferences_tC41F0FB04D792BE272F8049DC48557C7350AD750* L_66 = L_65;
+		if (L_66)
+		{
+			G_B34_0 = L_66;
+			goto IL_01d8;
+		}
+		G_B33_0 = L_66;
+	}
+	{
+		goto IL_01ea;
+	}
+
+IL_01d8:
+	{
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_67 = V_8;
+		int32_t L_68 = L_67.___SerializedId;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_69 = ___0_value;
+		KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826 L_70 = (*(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_69);
+		NullCheck(G_B34_0);
+		SerializedReferences_AddDeserializedReference_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_mF9C17632D390D9A2D594FC6A5F75344165E6BFEC(G_B34_0, L_68, L_70, il2cpp_rgctx_method(method->rgctx_data, 10));
+	}
+
+IL_01ea:
+	{
+		SerializedContainerMetadata_t1112F209893E4364AE123A5087678781DCA08BD8 L_71 = V_8;
+		SerializedContainerMetadataScope__ctor_mD787F78B9632E2BAEE3F840027F624198F10737A((&V_11), __this, L_71, NULL);
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_033d:
+			{
+				SerializedContainerMetadataScope_Dispose_m4652CEE3820473A6BFC47DC54118A2DAB05433CA((&V_11), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				UnsafeValueView_t22D78AC75DA41B64FDEDA057EB40FF5EE943822E L_72 = ___1_view;
+				UnsafeViewScope_t077AB68B6C6E607378FF96DB5409C1EFA9F748A3 L_73;
+				memset((&L_73), 0, sizeof(L_73));
+				UnsafeViewScope__ctor_m8B1EF2D91E86AC2CC7801A22A6249A7C6B04278F((&L_73), __this, L_72, NULL);
+				V_12 = L_73;
+			}
+			{
+				auto __finallyBlock = il2cpp::utils::Finally([&]
+				{
+
+FINALLY_032f_1:
+					{
+						UnsafeViewScope_Dispose_mB38D862FD811A006D30F486ECB1DA88C14C31308((&V_12), NULL);
+						return;
+					}
+				});
+				try
+				{
+					{
+						CHECKED_LOCAL_INIT(TypeTraits_1_tCD336C0FA2454B0DA22CDF00D8BC5231D503F0E0_StaticInit,(il2cpp_rgctx_data(method->rgctx_data, 7)),il2cpp_codegen_runtime_class_init_inline);
+						bool L_74;
+						L_74 = TypeTraits_1_get_IsNullable_mB5AA79EEDC95AE6274B4C43AC6AAFCEA153F08E3_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
+						if (!L_74)
+						{
+							goto IL_02b6_2;
+						}
+					}
+					{
+						RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_75 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 8)) };
+						CHECKED_LOCAL_INIT(Type_t_StaticInit,(Type_t_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+						Type_t* L_76;
+						L_76 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_75, NULL);
+						Type_t* L_77;
+						L_77 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_76, NULL);
+						V_13 = L_77;
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_78 = ___0_value;
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826 L_79 = (*(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_78);
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826 L_80 = L_79;
+						RuntimeObject* L_81 = Box(il2cpp_rgctx_data(method->rgctx_data, 5), &L_80);
+						Type_t* L_82 = V_13;
+						CHECKED_LOCAL_INIT(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_StaticInit,(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+						RuntimeObject* L_83;
+						L_83 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_81, L_82, NULL);
+						V_14 = L_83;
+						il2cpp_codegen_initobj((&V_16), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
+						VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_84 = V_16;
+						bool L_85;
+						L_85 = PropertyContainer_TryAccept_TisRuntimeObject_mB6FB92B27875A6970EB6B2F948AE57066573F29D(__this, (&V_14), (&V_15), L_84, PropertyContainer_TryAccept_TisRuntimeObject_mB6FB92B27875A6970EB6B2F948AE57066573F29D_RuntimeMethod_var);
+						if (L_85)
+						{
+							goto IL_02a4_2;
+						}
+					}
+					{
+						int32_t L_86 = V_15;
+						switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_86, 1)))
+						{
+							case 0:
+							{
+								goto IL_0259_2;
+							}
+							case 1:
+							{
+								goto IL_0264_2;
+							}
+							case 2:
+							{
+								goto IL_0276_2;
+							}
+						}
+					}
+					{
+						goto IL_0288_2;
+					}
+
+IL_0259_2:
+					{
+						ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_87 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+						ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_87, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8)), NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_87, method);
+					}
+
+IL_0264_2:
+					{
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_88 = ___0_value;
+						Il2CppFakeBox<KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826> L_89(il2cpp_rgctx_data(method->rgctx_data, 5), *L_88);
+						Type_t* L_90;
+						L_90 = il2cpp_codegen_object_get_type((&L_89));
+						InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA* L_91 = (InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA_il2cpp_TypeInfo_var)));
+						InvalidContainerTypeException__ctor_mD3139C3BDB58E245B4F75FAD5EA45B70B0432BF3(L_91, L_90, NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_91, method);
+					}
+
+IL_0276_2:
+					{
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_92 = ___0_value;
+						Il2CppFakeBox<KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826> L_93(il2cpp_rgctx_data(method->rgctx_data, 5), *L_92);
+						Type_t* L_94;
+						L_94 = il2cpp_codegen_object_get_type((&L_93));
+						MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF* L_95 = (MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF_il2cpp_TypeInfo_var)));
+						MissingPropertyBagException__ctor_mB582A31DF4DFE137633AC161C68DD62E10B2CF4C(L_95, L_94, NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_95, method);
+					}
+
+IL_0288_2:
+					{
+						int32_t L_96 = V_15;
+						int32_t L_97 = L_96;
+						RuntimeObject* L_98 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VisitReturnCode_t795FEB928E847C526F470080AA94B33FAC60BC75_il2cpp_TypeInfo_var)), &L_97);
+						String_t* L_99;
+						L_99 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50E436334550B3ABD14EAC4D71A5B94109EF1CE0)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCFF76EAE2EC7F0E16EB3A061249835B984112489)), L_98, NULL);
+						Exception_t* L_100 = (Exception_t*)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+						Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_100, L_99, NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_100, method);
+					}
+
+IL_02a4_2:
+					{
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_101 = ___0_value;
+						RuntimeObject* L_102 = V_14;
+						*(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_101 = ((*(KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)UnBox(L_102, il2cpp_rgctx_data(method->rgctx_data, 5))));
+						Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_101)->___key), (void*)NULL);
+						#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+						Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826*)L_101)->___value), (void*)NULL);
+						#endif
+						goto IL_034b;
+					}
+
+IL_02b6_2:
+					{
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_103 = ___0_value;
+						il2cpp_codegen_initobj((&V_16), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
+						VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_104 = V_16;
+						bool L_105;
+						L_105 = PropertyContainer_TryAccept_TisKeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826_m2B7DE33F18F7EA2F2A20F23FB72A25116A9F8513(__this, L_103, (&V_17), L_104, il2cpp_rgctx_method(method->rgctx_data, 12));
+						if (L_105)
+						{
+							goto IL_032d_2;
+						}
+					}
+					{
+						int32_t L_106 = V_17;
+						switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_106, 1)))
+						{
+							case 0:
+							{
+								goto IL_02e2_2;
+							}
+							case 1:
+							{
+								goto IL_02ed_2;
+							}
+							case 2:
+							{
+								goto IL_02ff_2;
+							}
+						}
+					}
+					{
+						goto IL_0311_2;
+					}
+
+IL_02e2_2:
+					{
+						ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_107 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+						ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_107, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8)), NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_107, method);
+					}
+
+IL_02ed_2:
+					{
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_108 = ___0_value;
+						Il2CppFakeBox<KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826> L_109(il2cpp_rgctx_data(method->rgctx_data, 5), *L_108);
+						Type_t* L_110;
+						L_110 = il2cpp_codegen_object_get_type((&L_109));
+						InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA* L_111 = (InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidContainerTypeException_tBC0F64EF2ECCABF59C7376B86E6E2A4213FD0EFA_il2cpp_TypeInfo_var)));
+						InvalidContainerTypeException__ctor_mD3139C3BDB58E245B4F75FAD5EA45B70B0432BF3(L_111, L_110, NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_111, method);
+					}
+
+IL_02ff_2:
+					{
+						KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826* L_112 = ___0_value;
+						Il2CppFakeBox<KeyValuePair_2_tEB5CFC17B6D8F2A082613AF75FCB091A2A4EB826> L_113(il2cpp_rgctx_data(method->rgctx_data, 5), *L_112);
+						Type_t* L_114;
+						L_114 = il2cpp_codegen_object_get_type((&L_113));
+						MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF* L_115 = (MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingPropertyBagException_t0F111A88F082CF81CD83CAF0CDD80D8DD95F83DF_il2cpp_TypeInfo_var)));
+						MissingPropertyBagException__ctor_mB582A31DF4DFE137633AC161C68DD62E10B2CF4C(L_115, L_114, NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_115, method);
+					}
+
+IL_0311_2:
+					{
+						int32_t L_116 = V_17;
+						int32_t L_117 = L_116;
+						RuntimeObject* L_118 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VisitReturnCode_t795FEB928E847C526F470080AA94B33FAC60BC75_il2cpp_TypeInfo_var)), &L_117);
+						String_t* L_119;
+						L_119 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50E436334550B3ABD14EAC4D71A5B94109EF1CE0)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCFF76EAE2EC7F0E16EB3A061249835B984112489)), L_118, NULL);
+						Exception_t* L_120 = (Exception_t*)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+						Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_120, L_119, NULL);
+						IL2CPP_RAISE_MANAGED_EXCEPTION(L_120, method);
+					}
+
+IL_032d_2:
+					{
+						goto IL_034b;
+					}
+				}
+				catch(Il2CppNativeThreadAbortException&)
+				{
+					__finallyBlock.SetNativeThreadAbortOccurred();
+				}
+				catch(Il2CppExceptionWrapper& e)
+				{
+					__finallyBlock.StoreException(e.ex);
+				}
+			}
+		}
+		catch(Il2CppNativeThreadAbortException&)
+		{
+			__finallyBlock.SetNativeThreadAbortOccurred();
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_034b:
+	{
+		return;
+	}
+}
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 87445
+// Method Definition Index: 86980
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m472977B4C950439F50C9790EB7CF0233007F8FFB_inline (Enumerator_t1B889A5D3E34653746C60D161921D3D0558A11D8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___m_Current;
+		return L_0;
+	}
+}
+// Method Definition Index: 11266
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m6E4D55D4E5A421BEFFB3823AF82AA6BFB4D72F3F_inline (List_1_tAE7E551A20846E5DFD9A9EECDA47DC7C1942DEAB* __this, DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = (il2cpp_codegen_conv<int32_t,int64_t,int64_t,false,false>((((RuntimeArray*)L_4)->max_length),NULL));
+		if ((!(((uint32_t)L_3) < ((uint32_t)L_5))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_6 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_6, 1));
+		DeserializationEventU5BU5D_tEA7885834887C4A7DD13FB9B9157DDC8B31337FE* L_7 = V_0;
+		int32_t L_8 = V_1;
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_9 = ___0_item;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9)L_9);
+		return;
+	}
+
+IL_0034:
+	{
+		DeserializationEvent_tE73A6EA9DA88061C7C9F1C93CCF1617756E9E2A9 L_10 = ___0_item;
+		List_1_AddWithResize_m33721C3206790908F95C4F736E10D66AC606B185(__this, L_10, il2cpp_rgctx_method(il2cpp_codegen_method_rgctx(method), 11));
+		return;
+	}
+}
+// Method Definition Index: 90445
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsNullable_mB5AA79EEDC95AE6274B4C43AC6AAFCEA153F08E3_gshared_inline (const RuntimeMethod* method) 
+{
+	CHECKED_LOCAL(classRgctxInit);
+	CHECKED_LOCAL(TypeTraits_1_t31E0BD871531FA1AC46F0126260E83EF64BD836B_StaticInit);
+	//<source_info:<no-source>:1>
+	{
+		CHECKED_LOCAL_INIT(TypeTraits_1_t31E0BD871531FA1AC46F0126260E83EF64BD836B_StaticInit,(il2cpp_rgctx_data(CHECKED_LOCAL_INIT_PARAM(classRgctxInit,(il2cpp_codegen_method_rgctx(method)),il2cpp_codegen_initialized_method_rgctx,(method)), 0)),il2cpp_codegen_runtime_class_init_inline);
+		bool L_0 = ((TypeTraits_1_tA6731D901CB174519A942E6C76C2280B82CF255A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(CHECKED_LOCAL_INIT_PARAM(classRgctxInit,(il2cpp_codegen_method_rgctx(method)),il2cpp_codegen_initialized_method_rgctx,(method)), 0)))->___U3CIsNullableU3Ek__BackingField;
+		return L_0;
+	}
+}
